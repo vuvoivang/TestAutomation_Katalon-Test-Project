@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teacher role
+TC: Add Assignment Advanced With Tags</description>
+   <name>Teacher_Add Annoucement Advanced With Tags</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57bb9c8b-267f-4cde-acef-85298ccf4af1</testCaseGuid>
+</TestCaseEntity>
