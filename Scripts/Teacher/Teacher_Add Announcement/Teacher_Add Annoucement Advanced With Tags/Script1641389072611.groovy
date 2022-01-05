@@ -33,21 +33,25 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Announcements Forum'))
 
-WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new topic_1'))
+WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new topic'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject'), 'Topic Advance With Tags')
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject'), 'Topic With Tags')
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_This is a topic advance with tags field'), 'This is a topic advance with tags field')
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_This is a topic with advanced field tags'), '<p dir="ltr" style="text-align: left;">This is a topic with advanced field tags</p>')
 
 WebUI.click(findTestObject('Object Repository/Page_Announcements/input_Cancel_advancedadddiscussion'))
 
-WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/a_Tags_1'))
+WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/a_Tags'))
 
-WebUI.setText(findTestObject('Object Repository/Page_TTH Add a new topic/input_No selection_form_autocomplete_input-_941018'), 
+WebUI.setText(findTestObject('Object Repository/Page_TTH Add a new topic/input_No selection_form_autocomplete_input-_69419d'), 
     'Sample Tags')
+
+WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/div_Selected items                No select_148724'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TTH Add a new topic/select_sample tags'), 'Sample Tags', 
     true)
+
+WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/div_Sample Tags                            _c5a69e'))
 
 WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/input__submitbutton'))
 

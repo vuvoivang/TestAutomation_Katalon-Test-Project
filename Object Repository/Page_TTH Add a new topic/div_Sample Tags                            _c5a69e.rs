@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_All file types_yui_3_17_2_1_164139728_b9002d</name>
+   <name>div_Sample Tags                            _c5a69e</name>
    <tag></tag>
-   <elementGuidId>c6f62166-66b8-4585-9b9d-d9ed3d0692ef</elementGuidId>
+   <elementGuidId>0b386209-1f58-4fa7-9fea-bd7226b8e57e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1641397287136_1528</value>
+         <value>#yui_3_17_2_1_1641399803523_978</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/label/input</value>
+         <value>//div[@id='fitem_id_tags']/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,84 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-filetypesbrowserkey</name>
+      <name>class</name>
       <type>Main</type>
-      <value>archive</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>checkbox</value>
+      <value>col-md-9 form-inline align-items-start felement</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>data-fieldtype</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>tags</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1641397287136_1528</value>
+      <value>yui_3_17_2_1_1641399803523_978</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        
+        
+        Sample Tags
+        
+            
+        
+    Selected items:
+
+        × Sample Tags
+    
+
+    
+    ▼
+
+No suggestions</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641397287136_1528&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1641399803523_978&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='yui_3_17_2_1_1641397287136_1528']</value>
+      <value>//div[@id='yui_3_17_2_1_1641399803523_978']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//label[@id='yui_3_17_2_1_1641397287136_1529']/input</value>
+      <value>//div[@id='fitem_id_tags']/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tags'])[2]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/label/input</value>
+      <value>//fieldset[3]/div/div/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

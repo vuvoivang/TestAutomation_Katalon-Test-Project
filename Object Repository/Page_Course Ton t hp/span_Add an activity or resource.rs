@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='yui_3_17_2_1_1641397858566_891']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add file(s) here'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
