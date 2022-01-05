@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Teacher_Add Assignment With Due Date Before Allow Submission From</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>971849ef-3795-4c43-9368-a4c3e149c9dd</testCaseGuid>
+</TestCaseEntity>

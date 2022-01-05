@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teacher role
+Test case: Add Assigment Submit Without Input</description>
+   <name>Teacher_Add Announcement Submit Without Input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2206d953-d742-4f87-9857-3bc87c6c2769</testCaseGuid>
+</TestCaseEntity>
