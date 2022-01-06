@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Teacher_Add Annoucement Have Display End Before Start</name>
+   <name>Teacher_Add Survey Critical Incidents</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bdeea9cf-ae59-4cad-b63e-bfde7f631bbe</testCaseGuid>
+   <testCaseGuid>38078bca-e925-43aa-a004-bf26e8d57f47</testCaseGuid>
 </TestCaseEntity>
