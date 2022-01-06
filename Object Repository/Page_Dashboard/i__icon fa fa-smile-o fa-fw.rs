@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='message-drawer-61d453d8bf16861d453d86f82819']/div[4]/div/div/div[2]/div/button/i</value>
+         <value>//div[4]/div/div/div[2]/div/button/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

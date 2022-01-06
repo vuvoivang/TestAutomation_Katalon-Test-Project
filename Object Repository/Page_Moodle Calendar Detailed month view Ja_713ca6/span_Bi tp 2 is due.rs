@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='month-detailed-61d695a349a2561d695a2d722b15']/tbody/tr[2]/td[2]/div/div/ul/li/a/span[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='No events, Monday, 3 January'])[2]/following::span[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='view-overview-favourites-target-61d453d8bf16861d453d86f82819']/div[2]/a/img</value>
+         <value>//img[@alt='Admin User']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

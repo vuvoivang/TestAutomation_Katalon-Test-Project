@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='calendar-day-4']/div[2]/div[2]/div/div/div[3]/a</value>
+         <value>//a[contains(text(),'Add submission')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

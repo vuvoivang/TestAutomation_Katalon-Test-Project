@@ -84,11 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-<<<<<<< HEAD
       <value>//form[@id='login']/div[2]/input</value>
-=======
-      <value>//div[@id='yui_3_17_2_1_1641401174046_29']/input</value>
->>>>>>> 9dff09230e068d9e3c4db87486d923d19c2ce4f8
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,8 +93,4 @@
       <type>Main</type>
       <value>//div[2]/input</value>
    </webElementXpaths>
-<<<<<<< HEAD
 </WebElementEntity>
-=======
-</WebElementEntity>
->>>>>>> 9dff09230e068d9e3c4db87486d923d19c2ce4f8

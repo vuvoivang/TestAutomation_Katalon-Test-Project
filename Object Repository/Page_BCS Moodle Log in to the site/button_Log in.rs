@@ -114,8 +114,4 @@
       <type>Main</type>
       <value>//button</value>
    </webElementXpaths>
-<<<<<<< HEAD
 </WebElementEntity>
-=======
-</WebElementEntity>
->>>>>>> 9dff09230e068d9e3c4db87486d923d19c2ce4f8

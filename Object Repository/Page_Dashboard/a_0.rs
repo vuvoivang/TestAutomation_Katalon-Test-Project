@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='message-drawer-toggle-61d453d8b8b4061d453d86f8289']</value>
+         <value>//div[@id='page-wrapper']/nav/ul[2]/li/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
