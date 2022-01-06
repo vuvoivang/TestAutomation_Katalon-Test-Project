@@ -33,9 +33,9 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Quiz/input_Upon activity completion_submitbutton'))
 

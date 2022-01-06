@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Teacher Role
-Test case: Add Assignment Basic Valid All Required Field: Subject and Message</description>
-   <name>Teacher_Add A Short Asnwer Question With No Full Grade Answer</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ea735e9e-dcbf-4103-a5e7-4122262ac2ad</testCaseGuid>
-</TestCaseEntity>

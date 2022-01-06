@@ -33,13 +33,33 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz_1'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Editing Quiz/input_Name_name'), 'This is a quiz with a name')
+WebUI.setText(findTestObject('Object Repository/Page_Editing Quiz/input_Name_name'), 'This is a quiz that has a short answer question with no full grade answer')
 
-WebUI.click(findTestObject('Object Repository/Page_Editing Quiz/input_Upon activity completion_submitbutton2'))
+WebUI.click(findTestObject('Object Repository/Page_Editing Quiz/input_Upon activity completion_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_TTH This is a quiz with a name/button_Edit quiz'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing quiz This is a quiz with a name/a_Add'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing quiz This is a quiz with a name/span_a new question'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing quiz This is a quiz with a name/label_Short answer                         _b7d048'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing quiz This is a quiz with a name/input_Description_submitbutton'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Editing a Short answer question/input_Question name_name'), 'A short answer question')
+
+WebUI.setText(findTestObject('Object Repository/Page_Editing a Short answer question/div_Question text'), 'Question text')
+
+WebUI.setText(findTestObject('Object Repository/Page_Editing a Short answer question/input_Answer 1_answer0'), 'Answer that is not full grade')
+
+WebUI.setText(findTestObject('Object Repository/Page_Editing a Short answer question/input_Answer 2_answer1'), 'Another answer that is not full grade')
+
+WebUI.click(findTestObject('Object Repository/Page_Editing a Short answer question/input__submitbutton'))
 
 WebUI.closeBrowser()
 

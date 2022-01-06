@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Quiz</name>
+   <name>a_Quiz_1</name>
    <tag></tag>
-   <elementGuidId>1bc25f54-057e-4456-8e73-8c6c0a91cedf</elementGuidId>
+   <elementGuidId>cbf554a1-02c7-42d3-bc00-b9b99e9a7e3a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -34,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost:8080/moodle/course/mod.php?id=4&amp;add=quiz&amp;section=0&amp;sr=0</value>
+      <value>http://localhost:8080/moodle/course/mod.php?id=4&amp;add=quiz&amp;section=3&amp;sr=0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +110,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost:8080/moodle/course/mod.php?id=4&amp;add=quiz&amp;section=0&amp;sr=0']</value>
+      <value>//a[@href='http://localhost:8080/moodle/course/mod.php?id=4&amp;add=quiz&amp;section=3&amp;sr=0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
