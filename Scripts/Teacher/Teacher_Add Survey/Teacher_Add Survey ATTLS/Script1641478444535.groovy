@@ -35,15 +35,16 @@ WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn e
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Recommended_icon icon'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Information about the SCORM package act_36b475'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Editing Assignment/input_Assignment name_name'), 'Assignment With Grade')
+WebUI.setText(findTestObject('Object Repository/Page_Editing Survey/input_Name_name'), 'Example Survey ATTLS')
 
-WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/a_Grade'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Editing Survey/select_Choose.            ATTLS (20 item ve_6ae139'), 
+    '4', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Editing Assignment/input_Maximum grade_grademodgrade_point'), '10')
+WebUI.click(findTestObject('Object Repository/Page_Editing Survey/input_Upon activity completion_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Upon activity completion_submitbutton2'))
+WebUI.click(findTestObject('Object Repository/Page_Example Survey Critical Incidents/a_Survey'))
 
 WebUI.closeBrowser()
 

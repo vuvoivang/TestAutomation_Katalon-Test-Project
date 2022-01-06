@@ -31,27 +31,20 @@ WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Announcements Forum'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new topic'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject'), 'Topic With Diplay End Before Start')
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Information about the SCORM package act_36b475'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_This is a topic with display end before start'), 
-    'This is a topic with display end before start')
+WebUI.setText(findTestObject('Object Repository/Page_Editing Survey/input_Name_name'), 'Example Survey Critical Incidents')
 
-WebUI.click(findTestObject('Object Repository/Page_Announcements/input_Cancel_advancedadddiscussion'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Editing Survey/select_Choose.            ATTLS (20 item ve_6ae139'), 
+    '5', true)
 
-WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/a_Display period'))
+WebUI.click(findTestObject('Object Repository/Page_Editing Survey/input_Upon activity completion_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/input_Enable_timeendenabled'))
-
-WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/label_Enable'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TTH Add a new topic/select_1        2        3        4        _45ea30'), 
-    '3', true)
-
-WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/input__submitbutton'))
+WebUI.click(findTestObject('Object Repository/Page_Example Survey Critical Incidents/a_Survey'))
 
 WebUI.closeBrowser()
 
