@@ -33,8 +33,6 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Calendar'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/a_4'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/a_4'))
-
 WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/a_Add submission'))
 
 WebUI.closeBrowser()

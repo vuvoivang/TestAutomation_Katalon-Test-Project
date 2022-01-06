@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teacher Role
+Test case: Add Assignment Basic Valid All Required Field: Subject and Message</description>
+   <name>Teacher_Quiz Add A Multiple Choices Question With No Answer That Has Full Grade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9fee9309-e971-4c08-bf92-4862963b31f5</testCaseGuid>
+</TestCaseEntity>

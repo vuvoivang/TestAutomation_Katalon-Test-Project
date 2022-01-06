@@ -23,15 +23,23 @@ WebUI.navigateToUrl('http://localhost:8080/moodle/')
 
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Username_username'), 'hoangvu')
+WebUI.setText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Username_username'), 'onix')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Password_password'), 'p4y+y39Ir5PR9RXlOHjWlj+CAJiYdX4g')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Password_password'), 'uw4zQNl2RedGtkZxJt1B2nZNxIOg3YnT')
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Calendar'))
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/a_4'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/a_Add submission'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Editing Quiz/input_Name_name'), 'This is a quiz with a name')
+
+WebUI.click(findTestObject('Object Repository/Page_Editing Quiz/input_Upon activity completion_submitbutton2'))
 
 WebUI.closeBrowser()
 

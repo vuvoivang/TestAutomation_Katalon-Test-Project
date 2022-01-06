@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_Create Course Invalid End Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b998f3fb-0a9f-4dad-8844-7b3025e70709</testCaseGuid>
+</TestCaseEntity>

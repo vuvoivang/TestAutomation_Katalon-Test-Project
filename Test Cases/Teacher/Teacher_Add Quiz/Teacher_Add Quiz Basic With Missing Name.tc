@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teacher Role
+Test case: Add Assignment Basic Valid All Required Field: Subject and Message</description>
+   <name>Teacher_Add Quiz Basic With Missing Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f0e17a2-59f3-4d75-8a7f-e7707b8deced</testCaseGuid>
+</TestCaseEntity>

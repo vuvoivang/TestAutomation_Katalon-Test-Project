@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin_Add User Invalid Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c426b72b-c32c-413b-8970-81b3293cb62f</testCaseGuid>
+</TestCaseEntity>

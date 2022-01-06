@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teacher Role
+Test case: Add Assignment Basic Valid All Required Field: Subject and Message</description>
+   <name>Teacher_Add Annoucement Basic Valid All Required Field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed247fa5-69f3-426b-b25e-0b5142510617</testCaseGuid>
+</TestCaseEntity>

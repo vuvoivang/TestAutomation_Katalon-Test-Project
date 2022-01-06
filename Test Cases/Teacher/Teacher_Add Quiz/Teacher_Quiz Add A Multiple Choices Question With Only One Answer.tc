@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teacher Role
+Test case: Add Assignment Basic Valid All Required Field: Subject and Message</description>
+   <name>Teacher_Quiz Add A Multiple Choices Question With Only One Answer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f267b0b2-199f-4de2-a7a1-fe8dbe0f8476</testCaseGuid>
+</TestCaseEntity>

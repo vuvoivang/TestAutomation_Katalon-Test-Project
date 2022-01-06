@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Teacher role
+TC: Add Assignment Advanced With Display Period</description>
+   <name>Teacher_Add Announcement Advanced With Display Period</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b25cb4dd-60fc-4ee4-9d81-06943fcd0893</testCaseGuid>
+</TestCaseEntity>
