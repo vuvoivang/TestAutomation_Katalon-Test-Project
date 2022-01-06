@@ -33,11 +33,27 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Add an activity or resource'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz'))
 
+WebUI.setText(findTestObject('Object Repository/Page_Editing Quiz/input_Name_name'), 'This is a quiz with a question that is missing question text')
+
 WebUI.click(findTestObject('Object Repository/Page_Editing Quiz/input_Upon activity completion_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_TTH This is a quiz with a question tha_2529fa/button_Edit quiz'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing quiz This is a quiz with a que_40dacb/span_Add'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing quiz This is a quiz with a que_40dacb/span_a new question'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing quiz This is a quiz with a que_40dacb/span_Multiple choice'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing quiz This is a quiz with a que_40dacb/input_Description_submitbutton'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Editing a Multiple choice question/input_Question name_name'), 'A question that is missing question text')
+
+WebUI.click(findTestObject('Object Repository/Page_Editing a Multiple choice question/input__submitbutton'))
 
 WebUI.closeBrowser()
 

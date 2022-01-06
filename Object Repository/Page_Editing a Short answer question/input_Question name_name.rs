@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Name_name</name>
+   <name>input_Question name_name</name>
    <tag></tag>
-   <elementGuidId>b304d2e2-c885-4175-909e-78839f56d9b1</elementGuidId>
+   <elementGuidId>637170f2-4e0e-4276-9258-7d7218f8d68c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -56,7 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>size</name>
       <type>Main</type>
-      <value>64</value>
+      <value>50</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>255</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641402282742_595']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641447238760_2995']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,19 +92,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641401304446_1692']/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641400482597_2443']/input</value>
    </webElementXpaths>
 </WebElementEntity>

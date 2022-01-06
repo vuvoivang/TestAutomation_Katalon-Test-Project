@@ -6,12 +6,12 @@
    <elementGuidId>919f0688-6b8d-4a76-9522-efdde41aede4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//body[@id='page-question-type-multichoice']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

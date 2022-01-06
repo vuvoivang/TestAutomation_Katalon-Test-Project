@@ -6,12 +6,12 @@
    <elementGuidId>4257f7b1-c4e8-46d4-95c7-0dfb7fda73be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_questiontexteditable</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='id_questiontexteditable']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_questiontexteditable</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

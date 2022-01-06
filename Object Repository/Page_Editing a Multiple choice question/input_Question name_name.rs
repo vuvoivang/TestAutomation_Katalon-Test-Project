@@ -6,12 +6,12 @@
    <elementGuidId>8ccb40dc-dd1e-42af-b74b-010f3a88487c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='id_name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
