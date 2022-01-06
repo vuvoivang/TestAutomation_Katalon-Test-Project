@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Student_Create Event without name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6fafd44-5af8-43b0-9782-885b2e3167ed</testCaseGuid>
+</TestCaseEntity>
