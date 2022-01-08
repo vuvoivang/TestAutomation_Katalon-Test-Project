@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Click to enter text_icon fa fa-eye fa-fw</name>
+   <name>i_concat(Thai Duy Dang, , s role assignment_4e74ec</name>
    <tag></tag>
-   <elementGuidId>127f33ce-d68b-4882-ae3b-939e5429f0ca</elementGuidId>
+   <elementGuidId>9366e5c2-8d86-4377-bd81-2511568dfd5a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span/a[2]/i</value>
+         <value>//span[@id='yui_3_17_2_1_1641574673390_21']/a[2]/i</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,35 +28,35 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>icon fa fa-eye fa-fw </value>
+      <value>icon fa fa-times fa-fw </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Reveal</value>
+      <value>Cancel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Reveal</value>
+      <value>Cancel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641395803905_777&quot;)/i[@class=&quot;icon fa fa-eye fa-fw&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1641574673390_21&quot;)/a[2]/i[@class=&quot;icon fa fa-times fa-fw&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641395803905_777']/i</value>
+      <value>//span[@id='yui_3_17_2_1_1641574673390_21']/a[2]/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login']/div[2]/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641604435280_29']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Site home</name>
+   <name>select_Xuan Y Dam Thi    yprotk21gmail.com _509605</name>
    <tag></tag>
-   <elementGuidId>63ffe961-696a-43fc-b98a-ceafd8b33170</elementGuidId>
+   <elementGuidId>59f43c95-26a1-4a3e-82f9-0c1687d228e5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='nav-drawer']/nav/ul/li[2]/a</value>
+         <value>//select[@id='id_userlist']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>#id_userlist</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,105 +21,70 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>list-group-item list-group-item-action  </value>
+      <value>custom-select </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>name</name>
       <type>Main</type>
-      <value>http://localhost:8080/moodle/?redirect=0</value>
+      <value>userlist[]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>id_userlist</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-key</name>
+      <name>courseid</name>
       <type>Main</type>
-      <value>home</value>
+      <value>5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-isexpandable</name>
+      <name>enrolid</name>
       <type>Main</type>
-      <value>0</value>
+      <value>13</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-indent</name>
+      <name>perpage</name>
       <type>Main</type>
-      <value>0</value>
+      <value>100</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-showdivider</name>
+      <name>userfields</name>
       <type>Main</type>
-      <value>0</value>
+      <value>email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-type</name>
+      <name>aria-hidden</name>
       <type>Main</type>
-      <value>70</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-nodetype</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-collapse</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-forceopen</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-isactive</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-hidden</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-preceedwithhr</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-parent-key</name>
-      <type>Main</type>
-      <value>myhome</value>
+      <value>-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -126,67 +92,76 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                            
-                                
-                                        
-                                            
-                                        
-                                    Site home
-                                
-                            
-                        </value>
+        
+    
+    Xuan Y Dam Thi
+    yprotk21@gmail.com
+
+    
+    Duy Dang
+    duy123@gmail.com
+
+    
+    Thai Duy Dang
+    duyprotk21@gmail.com
+
+    
+    Chi Hao Ha
+    haoprotk21@gmail.com
+
+    
+    Admin User
+    vohoangvu.dev99@gmail.com
+
+    
+    Hoang Du Vo
+    vuprotk21@gmail.com
+
+    
+    Duy Đặng
+    duyonix2210@gmail.com
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav-drawer&quot;)/nav[@class=&quot;list-group&quot;]/ul[1]/li[2]/a[@class=&quot;list-group-item list-group-item-action&quot;]</value>
+      <value>id(&quot;id_userlist&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='id_userlist']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-drawer']/nav/ul/li[2]/a</value>
+      <value>//div[@id='yui_3_17_2_1_1641604364737_207']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select users'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-<<<<<<< HEAD
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch role to...'])[1]/following::a[2]</value>
-=======
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::a[2]</value>
->>>>>>> main
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendar'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[@href='http://localhost:8080/moodle/?redirect=0']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enrolment options'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
+      <value>//fieldset/div/div/div[2]/select</value>
    </webElementXpaths>
 </WebElementEntity>

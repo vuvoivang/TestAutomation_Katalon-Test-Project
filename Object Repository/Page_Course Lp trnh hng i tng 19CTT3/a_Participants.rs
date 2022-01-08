@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Site home</name>
+   <name>a_Participants</name>
    <tag></tag>
-   <elementGuidId>63ffe961-696a-43fc-b98a-ceafd8b33170</elementGuidId>
+   <elementGuidId>d4e939c5-3c32-4018-ae1e-c15a57c87300</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -34,14 +34,14 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost:8080/moodle/?redirect=0</value>
+      <value>http://localhost:8080/moodle/user/index.php?id=2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-key</name>
       <type>Main</type>
-      <value>home</value>
+      <value>participants</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,14 +69,14 @@
       <matchCondition>equals</matchCondition>
       <name>data-type</name>
       <type>Main</type>
-      <value>70</value>
+      <value>90</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-nodetype</name>
       <type>Main</type>
-      <value>0</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-parent-key</name>
       <type>Main</type>
-      <value>myhome</value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -131,7 +131,7 @@
                                         
                                             
                                         
-                                    Site home
+                                    Participants
                                 
                             
                         </value>
@@ -155,32 +155,28 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OOP'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-<<<<<<< HEAD
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch role to...'])[1]/following::a[2]</value>
-=======
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::a[2]</value>
->>>>>>> main
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendar'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Badges'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost:8080/moodle/?redirect=0']</value>
+      <value>//a[@href='http://localhost:8080/moodle/user/index.php?id=2']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

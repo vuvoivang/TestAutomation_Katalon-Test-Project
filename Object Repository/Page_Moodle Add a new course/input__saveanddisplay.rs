@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Click to enter text_icon fa fa-eye fa-fw</name>
+   <name>input__saveanddisplay</name>
    <tag></tag>
-   <elementGuidId>127f33ce-d68b-4882-ae3b-939e5429f0ca</elementGuidId>
+   <elementGuidId>aa963ff5-2e2f-46c5-a4a1-305905e28ff3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span/a[2]/i</value>
+         <value>//input[@id='id_saveanddisplay']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>#id_saveanddisplay</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,48 +21,73 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>icon fa fa-eye fa-fw </value>
+      <value>btn
+                        btn-primary
+                        
+                    
+                    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Reveal</value>
+      <value>saveanddisplay</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>id_saveanddisplay</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>value</name>
       <type>Main</type>
-      <value>Reveal</value>
+      <value>Save and display</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641395803905_777&quot;)/i[@class=&quot;icon fa fa-eye fa-fw&quot;]</value>
+      <value>id(&quot;id_saveanddisplay&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='id_saveanddisplay']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641395803905_777']/i</value>
+      <value>//span[@id='yui_3_17_2_1_1641460292302_1085']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/a[2]/i</value>
+      <value>//span/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,3 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Admin/Admin_Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site administration'))
+
+WebUI.navigateToUrl('http://localhost:8080/moodle/admin/search.php')
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Courses'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a new course'))
+
+WebUI.navigateToUrl('http://localhost:8080/moodle/course/edit.php?category=0')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/input_Course full name_fullname'), 'Toan To Hop')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/input_Course short name_shortname'), 'TTH')
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/input__saveanddisplay'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Add a new course/div_Short name is already used for another _2a3f8e'), 
+    0)
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+

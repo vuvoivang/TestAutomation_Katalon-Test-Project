@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a new user'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Username_username'), 'ycutefail13')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Username_username'), 'ycutefail')
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/em_Click to enter text'))
 
@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users
 
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Surname_lastname'), 'cute')
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Email address_email'), 'ycutefail13@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Email address_email'), 'ycutefail@gmail.com')
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Address_submitbutton'))
 
@@ -61,19 +61,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in 
 
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
 
-WebUI.verifyElementPresent(findTestObject('null'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Page_Change password/div_You must change your password to proceed'), 0)
 
-WebUI.setEncryptedText(findTestObject('null'), 
-    '2710ZA2DREKCf9mxfuEeww==')
+WebUI.setEncryptedText(findTestObject('Page_Change password/input_Current password_password'), '2710ZA2DREKCf9mxfuEeww==')
 
-WebUI.setText(findTestObject('null'), 
-    'yyyTest123@')
+WebUI.setText(findTestObject('Page_Change password/input_New password_newpassword1'), 'yyyTest123@')
 
-WebUI.setText(findTestObject('null'), 
-    'yTest123@')
+WebUI.setText(findTestObject('Page_Change password/input_New password (again)_newpassword2'), 'yTest123@')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Page_Change password/input_New password (again)_submitbutton'))
 
 WebUI.click(findTestObject('Page_Change password/div_These passwords do not match'))
 
