@@ -6,12 +6,12 @@
    <elementGuidId>190997b6-a335-47da-bbce-dbd6e0c4a2c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#single_button61d5be5f65e4e1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//header[@id='page-header']/div/div/div/div[2]/div[2]/div/form/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#single_button61d6fb46ce94a1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>single_button61d5be5f65e4e1</value>
+      <value>single_button61d6fb46ce94a1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;single_button61d5be5f65e4e1&quot;)</value>
+      <value>id(&quot;single_button61d6fb46ce94a1&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='single_button61d5be5f65e4e1']</value>
+      <value>//button[@id='single_button61d6fb46ce94a1']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,27 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='single_button61d6f9e1b40f01']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='single_button61d5cf2809ece1']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='single_button61d5be5f65e4e1']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

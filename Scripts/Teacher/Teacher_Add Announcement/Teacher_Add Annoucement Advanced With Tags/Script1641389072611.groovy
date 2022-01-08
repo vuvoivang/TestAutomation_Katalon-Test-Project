@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new top
 
 WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject'), 'Topic With Tags')
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_This is a topic with advanced field tags'), '<p dir="ltr" style="text-align: left;">This is a topic with advanced field tags</p>')
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_This is a topic with advanced field tags'), 'This is a topic with advanced field tags')
 
 WebUI.click(findTestObject('Object Repository/Page_Announcements/input_Cancel_advancedadddiscussion'))
 
