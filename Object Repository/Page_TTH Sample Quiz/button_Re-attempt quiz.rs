@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='region-main']/div/div[5]/div/form/button</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='◄ Sample File'])[1]/preceding::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

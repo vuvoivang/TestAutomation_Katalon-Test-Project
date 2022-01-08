@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='single_button61d9b675d470c14']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='◄ Sample Quiz'])[1]/preceding::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
