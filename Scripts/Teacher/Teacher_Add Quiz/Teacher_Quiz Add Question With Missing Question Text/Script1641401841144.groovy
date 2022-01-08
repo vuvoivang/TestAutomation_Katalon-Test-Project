@@ -55,5 +55,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Editing a Multiple choice q
 
 WebUI.click(findTestObject('Object Repository/Page_Editing a Multiple choice question/input__submitbutton'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Editing a Multiple choice question/div_- You must supply a value here'), 
+    '- You must supply a value here.')
+
 WebUI.closeBrowser()
 

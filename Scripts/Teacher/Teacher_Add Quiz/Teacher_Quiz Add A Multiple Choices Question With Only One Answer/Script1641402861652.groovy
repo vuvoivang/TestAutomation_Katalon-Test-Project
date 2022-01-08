@@ -62,5 +62,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Editing a Multi
 
 WebUI.click(findTestObject('Object Repository/Page_Editing a Multiple choice question/input__submitbutton'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Editing a Multiple choice question/div_This type of question requires at least_02af54'), 
+    'This type of question requires at least 2 choices')
+
 WebUI.closeBrowser()
 
