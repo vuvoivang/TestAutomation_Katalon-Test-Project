@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='single_button61d5c8fbc5e7516']</value>
+         <value>//section[@id='region-main']/div/div[3]/div/div/form/button</value>
       </entry>
       <entry>
          <key>CSS</key>

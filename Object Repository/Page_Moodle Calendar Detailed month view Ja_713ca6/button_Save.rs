@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='yui_3_17_2_1_1641381130447_1248']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeat weekly, creating altogether'])[1]/following::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

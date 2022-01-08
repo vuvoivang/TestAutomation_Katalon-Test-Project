@@ -6,12 +6,12 @@
    <elementGuidId>6b06c772-af12-473b-899a-8551f65128e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='nav-drawer']/nav/ul/li[2]/a/div/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,11 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-<<<<<<< HEAD
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::span[4]</value>
-=======
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch role to...'])[1]/following::span[4]</value>
->>>>>>> 9dff09230e068d9e3c4db87486d923d19c2ce4f8
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

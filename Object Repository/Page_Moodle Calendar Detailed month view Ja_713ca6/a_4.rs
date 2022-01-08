@@ -6,12 +6,12 @@
    <elementGuidId>a7acc5aa-951a-463b-90d3-602279e17cfc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#calendar-day-popover-link-1-2022-3-1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//a[contains(text(),'4')])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#calendar-day-popover-link-1-2022-3-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

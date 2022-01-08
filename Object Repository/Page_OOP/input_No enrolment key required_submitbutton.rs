@@ -6,12 +6,12 @@
    <elementGuidId>5f959a4e-01de-40ac-8cea-d41cc153aece</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_submitbutton</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='id_submitbutton']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_submitbutton</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -82,7 +82,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641267803640_67']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641656360635_67']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,5 +90,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641649832781_67']/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641649143344_67']/input</value>
    </webElementXpaths>
 </WebElementEntity>

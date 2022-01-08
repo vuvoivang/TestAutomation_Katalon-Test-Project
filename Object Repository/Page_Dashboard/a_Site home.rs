@@ -6,12 +6,12 @@
    <elementGuidId>e986f1d2-1b4a-4514-b2ed-4df627f738b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='nav-drawer']/nav/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

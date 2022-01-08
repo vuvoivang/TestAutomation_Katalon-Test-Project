@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='yui_3_17_2_1_1641381259783_56']</value>
+         <value>//textarea[@name='post']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1641381259783_56</value>
+         <value>textarea[name=&quot;post&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -59,32 +59,25 @@
       <value>Write your reply...</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>yui_3_17_2_1_1641381259783_56</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641381259783_56&quot;)</value>
+      <value>id(&quot;inpage-reply-3&quot;)/div[@class=&quot;row pb-1&quot;]/span[1]/textarea[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='yui_3_17_2_1_1641381259783_56']</value>
+      <value>//textarea[@name='post']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='yui_3_17_2_1_1641381259783_57']/textarea</value>
+      <value>//form[@id='inpage-reply-3']/div/span/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
