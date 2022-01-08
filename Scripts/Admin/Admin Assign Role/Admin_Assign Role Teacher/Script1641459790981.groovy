@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin/Admin_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site home'))
+WebUI.click(findTestObject('Page_Dashboard/span_Site home (1)'))
 
 WebUI.navigateToUrl('http://localhost:8080/moodle/?redirect=0')
 
@@ -38,9 +38,6 @@ WebUI.click(findTestObject('Object Repository/Page_LDC1 Participants/input_Parti
 WebUI.click(findTestObject('Object Repository/Page_LDC1 Participants/span_'))
 
 WebUI.click(findTestObject('Object Repository/Page_LDC1 Participants/li_Chi Hao Ha    haoprotk21gmail.com'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_LDC1 Participants/select_Xuan Y Dam Thi    yprotk21gmail.com _509605'), 
-    '6', true)
 
 WebUI.click(findTestObject('Object Repository/Page_LDC1 Participants/div_Select users                           _1b8f1d'))
 
@@ -65,9 +62,9 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_L i Cng 1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course L i Cng 1/a_Participants'))
 
-WebUI.click(findTestObject('Object Repository/Page_LDC1 Participants/th_Chi Hao Ha'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_LDC1 Participants/th_Chi Hao Ha'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_LDC1 Participants/td_Teacher'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_LDC1 Participants/td_Teacher'), 0)
 
 WebUI.delay(2)
 
