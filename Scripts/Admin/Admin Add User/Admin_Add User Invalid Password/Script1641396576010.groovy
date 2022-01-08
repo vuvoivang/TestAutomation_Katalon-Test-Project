@@ -17,3 +17,48 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Admin/Admin_Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site administration'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Users'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a new user'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Username_username'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Username_username'), 'yk15')
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/em_Click to enter text'))
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/i_Click to enter text_icon fa fa-eye fa-fw'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_New password_newpassword'), 
+    'y')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_First name_firstname'), 
+    'Ý')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Surname_lastname'), 'Đàm')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Email address_email'), 'ydamk15@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Address_submitbutton'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_Passwords must be at least 8 characters long'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_Passwords must have at least 1 digit(s)'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_Passwords must have at least 1 upper ca_8e926f'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_The password must have at least 1 speci_80717b'), 
+    0)
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+
