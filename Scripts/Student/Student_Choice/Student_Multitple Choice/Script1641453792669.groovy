@@ -27,6 +27,8 @@ WebUI.setText(findTestObject('Object Repository/Page_BCS Moodle Log in to the si
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Password_password'), 'p4y+y39Ir5PR9RXlOHjWlj+CAJiYdX4g')
 
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
+
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_OOP'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CTT3/span_Chn ngy thi Choice'))
@@ -36,6 +38,8 @@ WebUI.click(findTestObject('Object Repository/Page_Chn ngy thi/input__answer'))
 WebUI.click(findTestObject('Object Repository/Page_Chn ngy thi/input__answer_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Chn ngy thi/input__btn btn-primary'))
+
+WebUI.click(findTestObject('Object Repository/Page_Chn ngy thi/div_Your choice has been saved_1'))
 
 WebUI.closeBrowser()
 

@@ -11,6 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -162,11 +163,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-<<<<<<< HEAD
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch role to...'])[1]/following::a[2]</value>
-=======
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::a[2]</value>
->>>>>>> main
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

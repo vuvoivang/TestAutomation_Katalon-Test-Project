@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='yui_3_17_2_1_1641381259783_68']/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reply'])[1]/following::span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1641381259783_68 > span</value>
+         <value>#yui_3_17_2_1_1641647416317_68 > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641381259783_68&quot;)/span[1]</value>
+      <value>id(&quot;yui_3_17_2_1_1641647416317_68&quot;)/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='yui_3_17_2_1_1641381259783_68']/span</value>
+      <value>//button[@id='yui_3_17_2_1_1641647416317_68']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

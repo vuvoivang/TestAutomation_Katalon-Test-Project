@@ -17,3 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:8080/moodle/')
+
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Log in'))
+
+WebUI.setText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Username_username'), 'hoangvu')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Password_password'), 'p4y+y39Ir5PR9RXlOHjWlj+CAJiYdX4g')
+
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
+
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Lp trnh hng i tng 19CTT3'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CTT3/span_OOP 19_3 Forum'))
+
+WebUI.click(findTestObject('Object Repository/Page_OOP 19_3 Forum/a_Tho lun  thi cui k 2019-2020'))
+
+WebUI.click(findTestObject('Object Repository/Page_OOP Tho lun  thi cui k 2019-2020/a_Reply'))
+
+WebUI.setText(findTestObject('Object Repository/Page_OOP Tho lun  thi cui k 2019-2020/textarea_Reply_post'), 'abcxyz')
+
+WebUI.click(findTestObject('Object Repository/Page_OOP Tho lun  thi cui k 2019-2020/span_Post to forum'))
+
+WebUI.closeBrowser()
+
