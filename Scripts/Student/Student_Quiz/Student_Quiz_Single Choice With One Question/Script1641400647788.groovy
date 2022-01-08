@@ -29,19 +29,21 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in 
 
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_TTH'))
+WebUI.navigateToUrl('http://localhost:8080/moodle/course/view.php?id=4')
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Sample Quiz'))
 
-WebUI.click(findTestObject('Object Repository/Page_TTH Sample Quiz/button_Attempt quiz now'))
+WebUI.click(findTestObject('Object Repository/Page_TTH Sample Quiz/button_Re-attempt quiz'))
 
-WebUI.click(findTestObject('Object Repository/Page_Sample Quiz/input_a_q11_answer'))
+WebUI.click(findTestObject('Object Repository/Page_Sample Quiz/input_c_q161_answer'))
 
 WebUI.click(findTestObject('Object Repository/Page_Sample Quiz/input_d_next'))
 
 WebUI.click(findTestObject('Object Repository/Page_Sample Quiz Attempt summary/button_Submit all and finish'))
 
-WebUI.click(findTestObject('Object Repository/Page_Sample Quiz Attempt summary/input_Once you submit, you will no longer b_c6e8dc'))
+WebUI.click(findTestObject('Object Repository/Page_Sample Quiz Attempt summary/input_Once you submit, you will no longer b_7b472f'))
 
 WebUI.click(findTestObject('Object Repository/Page_Sample Quiz Attempt review/a_Finish review'))
+
+WebUI.closeBrowser()
 
