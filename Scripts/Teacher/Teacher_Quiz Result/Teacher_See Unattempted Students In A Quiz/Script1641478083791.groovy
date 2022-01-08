@@ -33,18 +33,18 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Quiz Nhiu cu  nhiu la chn'))
 
-WebUI.navigateToUrl('http://localhost:8080/moodle/mod/quiz/view.php?id=19')
-
 WebUI.click(findTestObject('Object Repository/Page_TTH Quiz Nhiu cu  nhiu la chn/a_Quiz Nhiu cu  nhiu la chn_action-menu-toggle-3'))
 
 WebUI.click(findTestObject('Object Repository/Page_TTH Quiz Nhiu cu  nhiu la chn/a_Responses'))
+
+WebUI.navigateToUrl('http://localhost:8080/moodle/mod/quiz/report.php?id=21&mode=responses')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/select_enrolled users who have attempted th_e23a5c'), 
     'enrolled_without', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/input_right answer_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/a_Xuan Y Dam Thi'))
+WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/a_Chi Hao Ha'))
 
 WebUI.closeBrowser()
 

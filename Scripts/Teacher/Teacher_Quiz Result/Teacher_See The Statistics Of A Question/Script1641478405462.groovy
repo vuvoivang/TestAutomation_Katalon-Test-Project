@@ -33,20 +33,13 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Quiz Nhiu cu  nhiu la chn'))
 
-WebUI.navigateToUrl('http://localhost:8080/moodle/mod/quiz/view.php?id=19')
-
 WebUI.click(findTestObject('Object Repository/Page_TTH Quiz Nhiu cu  nhiu la chn/a_Quiz Nhiu cu  nhiu la chn_action-menu-toggle-3'))
 
 WebUI.click(findTestObject('Object Repository/Page_TTH Quiz Nhiu cu  nhiu la chn/a_Statistics'))
 
-WebUI.navigateToUrl('http://localhost:8080/moodle/mod/quiz/report.php?id=19&mode=statistics')
+WebUI.navigateToUrl('http://localhost:8080/moodle/mod/quiz/report.php?id=21&mode=statistics')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/select_highest graded attempt            al_2209be'), 
-    '2', true)
-
-WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/input_Calculate statistics from_submitbutton'))
-
-WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/a_Question 1'))
+WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/a_Question 2'))
 
 WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/a_Back to main statistics report page'))
 
