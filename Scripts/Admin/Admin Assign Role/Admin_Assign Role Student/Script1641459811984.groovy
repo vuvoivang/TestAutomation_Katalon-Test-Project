@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin/Admin_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site home'))
+WebUI.click(findTestObject('Page_Dashboard/span_Site home (1)'))
 
 WebUI.navigateToUrl('http://localhost:8080/moodle/?redirect=0')
 
