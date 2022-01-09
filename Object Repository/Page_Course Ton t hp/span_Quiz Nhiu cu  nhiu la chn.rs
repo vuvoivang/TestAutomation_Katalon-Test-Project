@@ -6,12 +6,11 @@
    <elementGuidId>3bf9cefc-ffef-4453-a2f5-d213002dc67c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//li[@id='module-21']/div/div/div[2]/div/a/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='module-19']/div/div/div[2]/div/a/span</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +41,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;module-19&quot;)/div[1]/div[@class=&quot;mod-indent-outer w-100&quot;]/div[2]/div[@class=&quot;activityinstance&quot;]/a[@class=&quot;aalink&quot;]/span[@class=&quot;instancename&quot;]</value>
+      <value>id(&quot;module-21&quot;)/div[1]/div[@class=&quot;mod-indent-outer w-100&quot;]/div[2]/div[@class=&quot;activityinstance&quot;]/a[@class=&quot;aalink&quot;]/span[@class=&quot;instancename&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='module-19']/div/div/div[2]/div/a/span</value>
+      <value>//li[@id='module-21']/div/div/div[2]/div/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +91,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/div[3]/ul/li[3]/div/div/div[2]/div/a/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='module-19']/div/div/div[2]/div/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

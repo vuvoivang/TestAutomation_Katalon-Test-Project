@@ -19,13 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin/Admin_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Dashboard/span_Site home (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site home'))
 
 WebUI.navigateToUrl('http://localhost:8080/moodle/?redirect=0')
-
-WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Lp trnh hng i tng 19CTT3'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CTT3/a_Participants'))
 
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_L i Cng 1'))
 
@@ -46,7 +42,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_LDC1 Participan
 
 WebUI.click(findTestObject('Object Repository/Page_LDC1 Participants/button_Enrol users'))
 
-WebUI.click(findTestObject('Object Repository/Page_LDC1 Participants/a_Admin User'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/a_Admin User'))
 
 WebUI.click(findTestObject('Object Repository/Page_LDC1 Participants/a_Log out'))
 
@@ -58,15 +54,17 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in 
 
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_L i Cng 1'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+
+WebUI.navigateToUrl('http://localhost:8080/moodle/?redirect=0')
+
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_L i Cng 1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course L i Cng 1/a_Participants'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_LDC1 Participants/th_Chi Hao Ha'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_LDC1 Participants/td_Teacher'), 0)
-
-WebUI.delay(2)
 
 WebUI.closeBrowser()
 

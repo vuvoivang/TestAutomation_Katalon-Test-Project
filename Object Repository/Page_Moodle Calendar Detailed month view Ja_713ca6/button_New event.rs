@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='calendar-month-61d57d0a8198f61d57d0a336c015']/div/button</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='List of courses'])[1]/following::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

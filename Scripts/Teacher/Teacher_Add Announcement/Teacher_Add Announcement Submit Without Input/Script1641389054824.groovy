@@ -37,5 +37,7 @@ WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new top
 
 WebUI.click(findTestObject('Object Repository/Page_Announcements/input_Message_submitbutton'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Announcements/div_- Required'), '- Required')
+
 WebUI.closeBrowser()
 

@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource (2)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Information about the Folder activity_i_e12f9c'))
 
@@ -45,9 +45,12 @@ WebUI.click(findTestObject('Object Repository/Page_New Forum With Topic/a_Add a 
 
 WebUI.setText(findTestObject('Object Repository/Page_New Forum With Topic/input_Subject_subject'), 'My First Topic')
 
-WebUI.setText(findTestObject('Page_New Forum With Topic/div_We will ask question about each other in here'), 'We will ask question about each other in here')
+WebUI.setText(findTestObject('Object Repository/Page_New Forum With Topic/div_We will ask question about each other in here'), 
+    'We will ask question about each other in here')
 
 WebUI.click(findTestObject('Object Repository/Page_New Forum With Topic/input_Message_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_New Forum With Topic/p_Your post was successfully added_1'))
 
 WebUI.closeBrowser()
 

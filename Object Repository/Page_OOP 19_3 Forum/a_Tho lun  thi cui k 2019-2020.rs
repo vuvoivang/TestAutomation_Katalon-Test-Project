@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641381536373_494']</value>
+         <value>//a[contains(text(),'Thảo luận đề thi cuối kỳ 2019-2020')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1641381536373_494</value>
+         <value>#yui_3_17_2_1_1641647413604_494</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1641381536373_494</value>
+      <value>yui_3_17_2_1_1641647413604_494</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,21 +72,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641381536373_494&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1641647413604_494&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641381536373_494']</value>
+      <value>//a[@id='yui_3_17_2_1_1641647413604_494']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641381536373_495']/a</value>
+      <value>//div[@id='yui_3_17_2_1_1641647413604_495']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

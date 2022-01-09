@@ -21,22 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/moodle/')
 
-WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/span_You are not logged in. (Log in)'))
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Log in (3)'))
+WebUI.setText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Username_username'), 'thaiduy')
 
-WebUI.setText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Username_username (3)'), 'hoangvu')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Password_password'), 'p4y+y39Ir5PR9RXlOHjWlj+CAJiYdX4g')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Password_password (3)'), 
-    'p4y+y39Ir5PR9RXlOHjWlj+CAJiYdX4g')
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site home'))
 
-WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_C s d liu 19CTT3 (1)'))
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_C s d liu 19CTT3'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CSDL/input_Enrolment key_enrolpassword (1)'), 'NhbHzDFXUPA=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CSDL/input_Enrolment key_enrolpassword'), 'BV0dRoAgsGg=')
 
-WebUI.click(findTestObject('Object Repository/Page_CSDL/input_Enrolment key_submitbutton (1)'))
+WebUI.click(findTestObject('Object Repository/Page_CSDL/input_Enrolment key_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_CSDL/div_Incorrect enrolment key, please try again'))
 
 WebUI.closeBrowser()
 

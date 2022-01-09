@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Lập trình hướng đối tượng 19CTT3')]</value>
+         <value>//div[@id='frontpage-available-course-list']/div/div[4]/div/h3/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.coursebox.clearfix.odd.last > div.info > h3.coursename > a.aalink</value>
+         <value>div.coursebox.clearfix.even.last > div.info > h3.coursename > a.aalink</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;frontpage-available-course-list&quot;)/div[@class=&quot;courses frontpage-course-list-all&quot;]/div[@class=&quot;coursebox clearfix odd last&quot;]/div[@class=&quot;info&quot;]/h3[@class=&quot;coursename&quot;]/a[@class=&quot;aalink&quot;]</value>
+      <value>id(&quot;frontpage-available-course-list&quot;)/div[@class=&quot;courses frontpage-course-list-all&quot;]/div[@class=&quot;coursebox clearfix even last&quot;]/div[@class=&quot;info&quot;]/h3[@class=&quot;coursename&quot;]/a[@class=&quot;aalink&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='frontpage-available-course-list']/div/div[5]/div/h3/a</value>
+      <value>//div[@id='frontpage-available-course-list']/div/div[4]/div/h3/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toán tổ hợp'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duy Đặng'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/h3/a</value>
+      <value>//div[4]/div/h3/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[@href='http://localhost:8080/moodle/course/view.php?id=2'])[2]</value>
    </webElementXpaths>
 </WebElementEntity>

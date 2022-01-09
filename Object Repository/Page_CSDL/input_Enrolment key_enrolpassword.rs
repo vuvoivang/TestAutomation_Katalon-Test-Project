@@ -6,12 +6,12 @@
    <elementGuidId>44ffdc05-52b7-4de2-bc03-414989e37004</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#enrolpassword_6</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='enrolpassword_6']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#enrolpassword_6</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641268045543_68&quot;)/input[@id=&quot;enrolpassword_6&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1641651302952_68&quot;)/input[@id=&quot;enrolpassword_6&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641268045543_68']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641651302952_68']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +85,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641651147182_68']/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641268045543_68']/input</value>
    </webElementXpaths>
 </WebElementEntity>

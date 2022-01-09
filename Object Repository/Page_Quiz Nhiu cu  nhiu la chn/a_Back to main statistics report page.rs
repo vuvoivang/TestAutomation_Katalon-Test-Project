@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost:8080/moodle/mod/quiz/report.php?id=19&amp;mode=statistics&amp;whichattempts=2</value>
+      <value>http://localhost:8080/moodle/mod/quiz/report.php?id=21&amp;mode=statistics</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641478509077_50&quot;)/div[@class=&quot;box py-3 backtomainstats boxaligncenter generalbox boxwidthnormal mdl-align&quot;]/a[1]</value>
+      <value>id(&quot;yui_3_17_2_1_1641660305898_50&quot;)/div[@class=&quot;box py-3 backtomainstats boxaligncenter generalbox boxwidthnormal mdl-align&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641478509077_50']/div[3]/a</value>
+      <value>//div[@id='yui_3_17_2_1_1641660305898_50']/div[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost:8080/moodle/mod/quiz/report.php?id=19&amp;mode=statistics&amp;whichattempts=2']</value>
+      <value>(//a[@href='http://localhost:8080/moodle/mod/quiz/report.php?id=21&amp;mode=statistics'])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +99,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641478509077_50']/div[3]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost:8080/moodle/mod/quiz/report.php?id=19&amp;mode=statistics&amp;whichattempts=2']</value>
    </webElementXpaths>
 </WebElementEntity>

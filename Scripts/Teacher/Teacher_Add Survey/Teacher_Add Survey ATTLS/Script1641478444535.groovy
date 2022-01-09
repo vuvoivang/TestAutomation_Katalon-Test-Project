@@ -33,18 +33,18 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource (3)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Information about the SCORM package act_36b475'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Editing Survey/input_Name_name'), 'Example Survey ATTLS')
+WebUI.setText(findTestObject('Page_Editing Survey/input_Name_name'), 'Example Survey ATTLS')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Editing Survey/select_Choose.            ATTLS (20 item ve_6ae139'), 
-    '4', true)
+WebUI.selectOptionByValue(findTestObject('Page_Editing Survey/select_Choose.            ATTLS (20 item ve_6ae139'), '4', 
+    true)
 
-WebUI.click(findTestObject('Object Repository/Page_Editing Survey/input_Upon activity completion_submitbutton'))
+WebUI.click(findTestObject('Page_Editing Survey/input_Upon activity completion_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_Example Survey Critical Incidents/a_Survey'))
+WebUI.click(findTestObject('Object Repository/Page_Example Survey ATTLS/a_Survey'))
 
 WebUI.closeBrowser()
 
