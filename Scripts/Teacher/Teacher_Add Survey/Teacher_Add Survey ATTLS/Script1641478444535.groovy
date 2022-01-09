@@ -37,8 +37,6 @@ WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an a
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Information about the SCORM package act_36b475'))
 
-WebUI.navigateToUrl('http://localhost:8080/moodle/course/modedit.php?add=survey&type=&course=4&section=4&return=0&sr=0')
-
 WebUI.setText(findTestObject('Page_Editing Survey/input_Name_name'), 'Example Survey ATTLS')
 
 WebUI.selectOptionByValue(findTestObject('Page_Editing Survey/select_Choose.            ATTLS (20 item ve_6ae139'), '4', 
