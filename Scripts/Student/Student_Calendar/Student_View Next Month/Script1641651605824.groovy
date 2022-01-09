@@ -33,5 +33,8 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Calendar'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/a_February 2022'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/h2_February 2022'), 
+    'February 2022')
+
 WebUI.closeBrowser()
 

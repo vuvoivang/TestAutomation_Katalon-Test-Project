@@ -6,12 +6,12 @@
    <elementGuidId>44ffdc05-52b7-4de2-bc03-414989e37004</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='enrolpassword_6']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#enrolpassword_6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='enrolpassword_6']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

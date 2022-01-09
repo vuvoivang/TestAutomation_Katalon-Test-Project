@@ -35,9 +35,11 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_OOP'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CTT3/span_Chn 1 bui hc b Choice'))
 
-WebUI.click(findTestObject('Object Repository/Page_Chn 1 bui hc b/input__answer'))
+WebUI.click(findTestObject('Object Repository/Page_Chn 1 bui hc b/input__answer (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Chn 1 bui hc b/input__btn btn-primary'))
+WebUI.click(findTestObject('Object Repository/Page_Chn 1 bui hc b/input__btn btn-primary (1)'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Chn 1 bui hc b/div_Your selection 141'), 'Your selection: 14/1')
 
 WebUI.closeBrowser()
 

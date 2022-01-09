@@ -39,7 +39,8 @@ WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Lp trnh hng i tn
 
 WebUI.click(findTestObject('Object Repository/Page_OOP/input_No enrolment key required_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CTT3/div_You are enrolled in the course_1'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CTT3/div_You are enrolled in the course_1'), 
+    0)
 
 WebUI.closeBrowser()
 

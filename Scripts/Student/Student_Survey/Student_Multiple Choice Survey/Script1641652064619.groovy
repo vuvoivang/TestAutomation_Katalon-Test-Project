@@ -79,7 +79,8 @@ WebUI.click(findTestObject('Object Repository/Page_Survey saved/button_Continue'
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Survey ALLTS'))
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_Survey ALLTS/div_Youve completed this survey.  The graph_fd12d9_1'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Survey ALLTS/div_Youve completed this survey.  The graph_fd12d9'), 
+    'You\'ve completed this survey. The graph below shows a summary of your results compared to the class averages.')
 
 WebUI.closeBrowser()
 

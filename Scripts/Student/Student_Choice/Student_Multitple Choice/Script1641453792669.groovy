@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_Chn ngy thi/input__answer_1')
 
 WebUI.click(findTestObject('Object Repository/Page_Chn ngy thi/input__btn btn-primary'))
 
-WebUI.click(findTestObject('Object Repository/Page_Chn ngy thi/div_Your choice has been saved_1'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Chn ngy thi/div_Your selection 211 241'), 'Your selection: 21/1; 24/1')
 
 WebUI.closeBrowser()
 

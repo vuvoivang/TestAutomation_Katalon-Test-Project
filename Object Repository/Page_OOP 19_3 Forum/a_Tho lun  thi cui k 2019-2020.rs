@@ -6,12 +6,12 @@
    <elementGuidId>00216d30-ea28-4ec7-a73c-e4f0a4d72ac4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Thảo luận đề thi cuối kỳ 2019-2020')]</value>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1641719771990_494</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1641647413604_494</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Thảo luận đề thi cuối kỳ 2019-2020')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1641647413604_494</value>
+      <value>yui_3_17_2_1_1641719771990_494</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,21 +72,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641647413604_494&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1641719771990_494&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641647413604_494']</value>
+      <value>//a[@id='yui_3_17_2_1_1641719771990_494']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641647413604_495']/a</value>
+      <value>//div[@id='yui_3_17_2_1_1641719771990_495']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,5 +143,33 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1641719614685_494']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641719614685_495']/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1641647413604_494']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641647413604_495']/a</value>
    </webElementXpaths>
 </WebElementEntity>
