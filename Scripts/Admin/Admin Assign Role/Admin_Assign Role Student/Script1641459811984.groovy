@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin/Admin_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Dashboard/a_Site home'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Site home'))
 
 WebUI.navigateToUrl('http://localhost:8080/moodle/?redirect=0')
 
@@ -45,6 +45,8 @@ WebUI.click(findTestObject('Object Repository/Page_OOP Participants/a_Admin User
 
 WebUI.click(findTestObject('Object Repository/Page_OOP Participants/a_Log out'))
 
+WebUI.navigateToUrl('http://localhost:8080/moodle/')
+
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Log in'))
 
 WebUI.setText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Username_username'), 'xuany')
@@ -53,7 +55,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in 
 
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Lp trnh hng i tng 19CTT3'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+
+WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Lp trnh hng i tng 19CTT3'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CTT3/button_End tour'))
 
@@ -62,8 +66,6 @@ WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CT
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OOP Participants/th_Xuan Y Dam Thi'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OOP Participants/td_Student'), 0)
-
-WebUI.delay(2)
 
 WebUI.closeBrowser()
 

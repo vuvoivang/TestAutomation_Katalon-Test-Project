@@ -37,9 +37,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_CSDL/input_Enrolme
 
 WebUI.click(findTestObject('Object Repository/Page_CSDL/input_Enrolment key_submitbutton'))
 
-//WebUI.click(findTestObject('Object Repository/Page_Course C s d liu 19CTT3/div'))
-
-//WebUI.doubleClick(findTestObject('Object Repository/Page_Course C s d liu 19CTT3/div_You are enrolled in the course_1'))
+WebUI.navigateToUrl('http://localhost:8080/moodle/course/view.php?id=3')
 
 WebUI.closeBrowser()
 

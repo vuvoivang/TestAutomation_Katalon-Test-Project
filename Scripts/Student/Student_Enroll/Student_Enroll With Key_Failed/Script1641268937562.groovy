@@ -37,7 +37,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_CSDL/input_Enrolme
 
 WebUI.click(findTestObject('Object Repository/Page_CSDL/input_Enrolment key_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_CSDL/div_Incorrect enrolment key, please try again'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CSDL/div_Incorrect enrolment key, please try again'), 
+    0)
 
 WebUI.closeBrowser()
 

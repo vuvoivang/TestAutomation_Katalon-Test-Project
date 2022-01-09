@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='single_button61d5cba37a35313']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Password has been changed'])[2]/following::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

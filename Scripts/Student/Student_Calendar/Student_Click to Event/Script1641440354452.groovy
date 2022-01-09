@@ -31,9 +31,11 @@ WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Calendar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/span_Bi tp 2 is due'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/span_Bi tp 2 is due (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/a_Add submission'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/a_Add submission (1)'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_OOP Bi tp 2 - Edit submission/h2_Bi tp 2 (1)'), 'Bài tập 2')
 
 WebUI.closeBrowser()
 

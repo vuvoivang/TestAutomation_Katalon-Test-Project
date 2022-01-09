@@ -6,12 +6,12 @@
    <elementGuidId>d8dc4ddf-f491-4658-bb25-fdb2e3438646</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='frontpage-available-course-list']/div/div[4]/div/h3/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.coursebox.clearfix.even.last > div.info > h3.coursename > a.aalink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='frontpage-available-course-list']/div/div[4]/div/h3/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -98,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost:8080/moodle/course/view.php?id=2']</value>
+      <value>(//a[@href='http://localhost:8080/moodle/course/view.php?id=2'])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +112,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[@href='http://localhost:8080/moodle/course/view.php?id=2'])[2]</value>
+      <value>//a[@href='http://localhost:8080/moodle/course/view.php?id=2']</value>
    </webElementXpaths>
 </WebElementEntity>

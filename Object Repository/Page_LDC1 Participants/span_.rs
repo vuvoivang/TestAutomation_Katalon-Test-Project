@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='form_autocomplete_downarrow-1641604366234']</value>
+         <value>//div[@id='fitem_id_userlist']/div[2]/div[3]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
