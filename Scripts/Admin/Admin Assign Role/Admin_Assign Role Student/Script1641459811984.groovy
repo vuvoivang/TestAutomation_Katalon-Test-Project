@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin/Admin_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Dashboard/span_Site home (1)'))
+WebUI.click(findTestObject('Page_Dashboard/a_Site home'))
 
 WebUI.navigateToUrl('http://localhost:8080/moodle/?redirect=0')
 
@@ -33,9 +33,6 @@ WebUI.setText(findTestObject('Object Repository/Page_OOP Participants/input_No s
     'ypro')
 
 WebUI.click(findTestObject('Object Repository/Page_OOP Participants/li_Xuan Y Dam Thi    yprotk21gmail.com'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_OOP Participants/select_Xuan Y Dam Thi    yprotk21gmail.com _a35d9e'), 
-    '5', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_OOP Participants/select_Xuan Y Dam Thi    yprotk21gmail.com _a35d9e'), 
     '5', true)
