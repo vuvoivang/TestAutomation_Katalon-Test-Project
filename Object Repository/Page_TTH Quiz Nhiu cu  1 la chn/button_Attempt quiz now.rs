@@ -6,12 +6,12 @@
    <elementGuidId>d2e06234-88d8-4393-afa7-ea54a636023e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='region-main']/div/div[3]/div/form/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#single_button61d9b3e8e76eb14</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Mark as done'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
