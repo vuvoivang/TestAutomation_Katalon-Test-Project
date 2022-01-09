@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>New Test Suite</name>
+   <name>teacher</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -78,15 +78,63 @@
       <testCaseId>Test Cases/Teacher/Teacher_Add Forum/Teacher_Add Forum With Topic Valid All Required</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>00c6eee1-1813-40ba-aa68-0406f722f0bf</guid>
+      <guid>815d2d79-a17a-4614-a70b-0ab03a762736</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Add A Short Answer Question With No Full Grade Answer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56a2f3ad-d0c9-48bc-a221-d2f5e58bc277</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Add Quiz Basic With Missing Name</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b914d1c-e4eb-4a1b-ad07-293cd4d088f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Quiz Add A Multiple Choices Question Successfully</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b0b9acc-6eb2-4f0d-9fa2-f04c1825cc76</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Quiz Add A Multiple Choices Question With Only One Answer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c62fa3e0-7382-45fb-a8db-ff5f32f6e8a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Quiz Add Question With Missing Question Text</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>86bc3833-fa73-4060-873a-c390f14660f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher/Teacher_Add Survey/Teacher_Add Survey ATTLS</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8ecc1b7d-d66b-4de7-b4f8-ed4fd2e0c349</guid>
+      <guid>7c5996e1-3ddf-4ac2-a2f8-148fd0d910ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher/Teacher_Add Survey/Teacher_Add Survey Critical Incidents</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c1f3f1d0-f5d2-4f42-9353-8313f0d92c23</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Quiz Result/Teacher_Review An Attempt</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a4d9fb4-d269-43ee-810a-c178d7963112</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Quiz Result/Teacher_See The Statistics Of A Question</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2a8e35f-4ed1-47e7-95ed-79fdcf76e4a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Quiz Result/Teacher_See Unattempted Students In A Quiz</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
