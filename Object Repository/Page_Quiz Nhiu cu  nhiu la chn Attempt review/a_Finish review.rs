@@ -6,12 +6,12 @@
    <elementGuidId>c52e376a-9e5c-435c-917e-685cc67bf244</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='region-main']/div[2]/div[4]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.mod_quiz-next-nav</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Finish review')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

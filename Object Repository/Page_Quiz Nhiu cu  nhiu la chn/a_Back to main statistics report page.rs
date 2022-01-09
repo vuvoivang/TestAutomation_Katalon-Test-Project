@@ -6,12 +6,12 @@
    <elementGuidId>3b3b8a66-ebd7-4c63-a3c0-1f1a6667135c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Back to main statistics report page.')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.box.py-3.backtomainstats.boxaligncenter.generalbox.boxwidthnormal.mdl-align > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Back to main statistics report page.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
