@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1641574295584_410</value>
+         <value>#yui_3_17_2_1_1641702997558_289</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost:8080/moodle/login/logout.php?sesskey=0sJeQ7snl1</value>
+      <value>http://localhost:8080/moodle/login/logout.php?sesskey=KRMqcOvLGR</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1641574295584_410</value>
+      <value>yui_3_17_2_1_1641702997558_289</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,14 +80,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641574295584_410&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1641702997558_289&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641574295584_410']</value>
+      <value>//a[@id='yui_3_17_2_1_1641702997558_289']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost:8080/moodle/login/logout.php?sesskey=0sJeQ7snl1']</value>
+      <value>//a[@href='http://localhost:8080/moodle/login/logout.php?sesskey=KRMqcOvLGR']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

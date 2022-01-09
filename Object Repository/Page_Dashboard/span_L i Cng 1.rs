@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='course-info-container-5-6']/div/div/a/span[3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Course name'])[3]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
