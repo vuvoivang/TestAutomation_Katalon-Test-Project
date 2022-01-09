@@ -42,5 +42,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Calendar
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/button_Save'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/div_- Required'), 
+    '- Required')
+
 WebUI.closeBrowser()
 

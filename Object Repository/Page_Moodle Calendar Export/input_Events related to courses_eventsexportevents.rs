@@ -6,12 +6,12 @@
    <elementGuidId>a4b2a61b-4a8e-4dba-b892-782b7e00d91c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='id_events_exportevents_courses']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_events_exportevents_courses</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='id_events_exportevents_courses']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

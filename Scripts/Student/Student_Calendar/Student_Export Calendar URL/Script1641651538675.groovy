@@ -41,5 +41,8 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Export/input_
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Export/div_Calendar URL httplocalhost8080moodlecal_fcc980'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Moodle Calendar Export/div_Calendar URL httplocalhost8080moodlecal_fcc980'), 
+    0)
+
 WebUI.closeBrowser()
 

@@ -39,9 +39,12 @@ WebUI.click(findTestObject('Object Repository/Page_OOP 19_3 Forum/a_Tho lun  thi
 
 WebUI.click(findTestObject('Object Repository/Page_OOP Tho lun  thi cui k 2019-2020/a_Reply'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OOP Tho lun  thi cui k 2019-2020/textarea_Reply_post'), 'abcxyz')
+WebUI.setText(findTestObject('Object Repository/Page_OOP Tho lun  thi cui k 2019-2020/textarea_Reply_post'), 'My Comment')
 
 WebUI.click(findTestObject('Object Repository/Page_OOP Tho lun  thi cui k 2019-2020/span_Post to forum'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_OOP Tho lun  thi cui k 2019-2020/p_Your post was successfully added'), 
+    'Your post was successfully added.')
 
 WebUI.closeBrowser()
 

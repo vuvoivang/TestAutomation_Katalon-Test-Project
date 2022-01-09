@@ -6,12 +6,12 @@
    <elementGuidId>849f7e53-76ba-4ada-b13a-048e88d8118e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='id_period_timeperiod_monthnow']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_period_timeperiod_monthnow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='id_period_timeperiod_monthnow']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
