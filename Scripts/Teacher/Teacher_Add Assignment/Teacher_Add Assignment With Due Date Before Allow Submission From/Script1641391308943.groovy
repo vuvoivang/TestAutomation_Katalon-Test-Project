@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
+WebUI.click(findTestObject('Page_Course Ton t hp/span_Add an activity or resource (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Recommended_icon icon'))
 
@@ -43,6 +43,11 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Editing Assignm
     '3', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Upon activity completion_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/div_Due date cannot be earlier than the all_eaad69'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Editing Assignment/div_Due date cannot be earlier than the all_eaad69'), 
+    'Due date cannot be earlier than the allow submissions from date.')
 
 WebUI.closeBrowser()
 

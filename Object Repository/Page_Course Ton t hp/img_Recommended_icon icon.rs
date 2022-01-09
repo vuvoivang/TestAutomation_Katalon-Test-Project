@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:img</name>
       <type>Main</type>
-      <value>(//img[contains(@src,'http://localhost:8080/moodle/theme/image.php/boost/assign/1641205401/icon')])[4]</value>
+      <value>(//img[contains(@src,'http://localhost:8080/moodle/theme/image.php/boost/assign/1641205401/icon')])[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[contains(@src,'http://localhost:8080/moodle/theme/image.php/boost/assign/1641205401/icon')])[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

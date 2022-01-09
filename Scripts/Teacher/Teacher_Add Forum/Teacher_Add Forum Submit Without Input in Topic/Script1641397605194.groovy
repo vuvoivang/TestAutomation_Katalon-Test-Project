@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
+WebUI.click(findTestObject('Page_Course Ton t hp/span_Add an activity or resource (2)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Information about the Folder activity_i_e12f9c'))
 
@@ -46,6 +46,10 @@ WebUI.click(findTestObject('Object Repository/Page_My New Forum/a_Add a new disc
 WebUI.click(findTestObject('Object Repository/Page_My New Forum/div_Cancel'))
 
 WebUI.click(findTestObject('Object Repository/Page_My New Forum/input_Message_submitbutton'))
+
+WebUI.click(findTestObject('Object Repository/Page_My New Forum/div_- Required'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_My New Forum/div_- Required'), '- Required')
 
 WebUI.closeBrowser()
 
