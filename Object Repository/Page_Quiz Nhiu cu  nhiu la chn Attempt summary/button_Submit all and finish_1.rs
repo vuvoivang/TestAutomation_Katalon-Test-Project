@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Submit all and finish</name>
+   <name>button_Submit all and finish_1</name>
    <tag></tag>
-   <elementGuidId>d95d07eb-721f-4d4c-af94-55c859063d6e</elementGuidId>
+   <elementGuidId>713c243f-61c0-4f20-9a60-fc693aa67d19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#single_button61d9afd7911b816</value>
+         <value>#single_button61da50a1ed28f16</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='region-main']/div/div[3]/div/div/form/button</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Time left'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>single_button61d9afd7911b816</value>
+      <value>single_button61da50a1ed28f16</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,21 +56,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;single_button61d9afd7911b816&quot;)</value>
+      <value>id(&quot;single_button61da50a1ed28f16&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='single_button61d9afd7911b816']</value>
+      <value>//button[@id='single_button61da50a1ed28f16']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='region-main']/div/div[3]/div/div/form/button</value>
+      <value>//div[@id='yui_3_17_2_1_1641697442432_30']/div[3]/div/div/form/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
