@@ -44,7 +44,15 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Quiz Nhiu cu  n
 
 WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/input_right answer_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/a_Chi Hao Ha'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/td_-_1'), '-')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/td_-_1_2'), '-')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/td_-'), '-')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/td_-_1_2_3'), '-')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/td_-_1_2_3_4'), '-')
 
 WebUI.closeBrowser()
 

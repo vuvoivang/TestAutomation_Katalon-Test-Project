@@ -41,6 +41,12 @@ WebUI.navigateToUrl('http://localhost:8080/moodle/mod/quiz/report.php?id=21&mode
 
 WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/a_Question 2'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/td_Question 2'), 'Question 2 ')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/h3_Question statistics'), 'Question statistics')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/h3_Analysis of responses'), 'Analysis of responses')
+
 WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/a_Back to main statistics report page'))
 
 WebUI.closeBrowser()
