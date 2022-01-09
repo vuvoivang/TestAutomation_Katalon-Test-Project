@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>input_Username_username_1</name>
    <tag></tag>
-   <elementGuidId>6622d72d-b58e-4166-bb22-7868bec979db</elementGuidId>
+   <elementGuidId>886647fc-7548-48d9-8fe3-4b5b2cd30749</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

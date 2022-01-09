@@ -6,12 +6,12 @@
    <elementGuidId>35acf62c-d367-45f3-8270-b6b57fc920fd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1641397673763_621</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Add a new discussion topic')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1641397673763_621</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
