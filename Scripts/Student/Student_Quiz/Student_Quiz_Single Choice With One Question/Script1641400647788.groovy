@@ -39,9 +39,14 @@ WebUI.click(findTestObject('Object Repository/Page_Sample Quiz/input_c_q161_answ
 
 WebUI.click(findTestObject('Object Repository/Page_Sample Quiz/input_d_next'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn Attempt summary/td_Answer saved'), 
+    'Answer saved')
+
 WebUI.click(findTestObject('Object Repository/Page_Sample Quiz Attempt summary/button_Submit all and finish'))
 
 WebUI.click(findTestObject('Object Repository/Page_Sample Quiz Attempt summary/input_Once you submit, you will no longer b_7b472f'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn Attempt review/td_Finished'), 'Finished')
 
 WebUI.click(findTestObject('Object Repository/Page_Sample Quiz Attempt review/a_Finish review'))
 

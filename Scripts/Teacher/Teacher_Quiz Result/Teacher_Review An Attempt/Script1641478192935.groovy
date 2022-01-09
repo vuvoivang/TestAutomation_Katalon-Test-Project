@@ -43,5 +43,8 @@ WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn/a_R
 
 WebUI.click(findTestObject('Object Repository/Page_Quiz Nhiu cu  nhiu la chn Attempt review/a_Finish review'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_TTH Quiz Nhiu cu  nhiu la chn/h2_Quiz Nhiu cu  nhiu la chn'), 
+    'Quiz Nhiều câu + nhiều lựa chọn')
+
 WebUI.closeBrowser()
 

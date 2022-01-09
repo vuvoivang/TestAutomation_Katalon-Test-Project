@@ -6,12 +6,12 @@
    <elementGuidId>c226353e-9737-47fa-8801-4b44c7771ff6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[@id='mod-quiz-report-responses-report_r3_c1']/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mod-quiz-report-responses-report_r3_c1 > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='mod-quiz-report-responses-report_r3_c1']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

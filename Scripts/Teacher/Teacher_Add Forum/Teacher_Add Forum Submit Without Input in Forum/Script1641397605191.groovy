@@ -21,23 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/moodle/')
 
-WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Log in'))
+WebUI.click(findTestObject('Page_BCS Moodle/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Username_username'), 'onix')
+WebUI.setText(findTestObject('Page_BCS Moodle Log in to the site/input_Username_username'), 'onix')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Password_password'), 'uw4zQNl2RedGtkZxJt1B2nZNxIOg3YnT')
+WebUI.setEncryptedText(findTestObject('Page_BCS Moodle Log in to the site/input_Password_password'), 'uw4zQNl2RedGtkZxJt1B2nZNxIOg3YnT')
 
-WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
+WebUI.click(findTestObject('Page_BCS Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
+WebUI.click(findTestObject('Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/div_Information about the Folder activity_o_1fd216'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Information about the Folder activity_i_e12f9c'))
 
-WebUI.click(findTestObject('Object Repository/Page_Editing Forum/input_Upon activity completion_submitbutton'))
+WebUI.click(findTestObject('Page_Editing Forum/input_Upon activity completion_submitbutton'))
+
+WebUI.click(findTestObject('Page_Editing Forum/div_- You must supply a value here'))
+
+WebUI.verifyElementText(findTestObject('Page_Editing Forum/div_- You must supply a value here'), '- You must supply a value here.')
 
 WebUI.closeBrowser()
 

@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource_1'))
+WebUI.click(findTestObject('Page_Course Ton t hp/span_Add an activity or resource_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz_1'))
 
@@ -66,7 +66,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Editing a Multiple choice q
 
 WebUI.click(findTestObject('Object Repository/Page_Editing a Multiple choice question/input__submitbutton'))
 
-WebUI.navigateToUrl('http://localhost:8080/moodle/mod/quiz/edit.php?cmid=36&cat=12%2C44&qpage=0')
+WebUI.verifyElementText(findTestObject('Page_Editing quiz This is a quiz with a mul_934bc9/span_A multiple choices question'), 
+    'A multiple choices question')
 
 WebUI.closeBrowser()
 
