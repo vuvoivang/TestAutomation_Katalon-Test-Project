@@ -6,12 +6,12 @@
    <elementGuidId>b64f0202-02e3-48de-bbdd-b19e5ace0ba1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.reviewlink</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//td[@id='mod-quiz-report-responses-report_r0_c2']/a[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.reviewlink</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost:8080/moodle/mod/quiz/review.php?attempt=9</value>
+      <value>http://localhost:8080/moodle/mod/quiz/review.php?attempt=10</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chi Hao Ha'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hoang Du Vo'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='haoprotk21@gmail.com'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='vuprotk21@gmail.com'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost:8080/moodle/mod/quiz/review.php?attempt=9']</value>
+      <value>//a[@href='http://localhost:8080/moodle/mod/quiz/review.php?attempt=10']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,26 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chi Hao Ha'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='haoprotk21@gmail.com'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost:8080/moodle/mod/quiz/review.php?attempt=9']</value>
    </webElementXpaths>
 </WebElementEntity>

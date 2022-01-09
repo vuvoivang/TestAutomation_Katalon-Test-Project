@@ -6,12 +6,12 @@
    <elementGuidId>7bc04411-cbf2-41ca-a8c4-4d930cd1d230</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#action_link61d6f9511ae2644</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='action-menu-3-menu']/div[9]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#action_link61d9bf824dd7144</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost:8080/moodle/mod/quiz/report.php?id=19&amp;mode=statistics</value>
+      <value>http://localhost:8080/moodle/mod/quiz/report.php?id=21&amp;mode=statistics</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>action_link61d6f9511ae2644</value>
+      <value>action_link61d9bf824dd7144</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,14 +63,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action_link61d6f9511ae2644&quot;)</value>
+      <value>id(&quot;action_link61d9bf824dd7144&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='action_link61d6f9511ae2644']</value>
+      <value>//a[@id='action_link61d9bf824dd7144']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost:8080/moodle/mod/quiz/report.php?id=19&amp;mode=statistics']</value>
+      <value>//a[@href='http://localhost:8080/moodle/mod/quiz/report.php?id=21&amp;mode=statistics']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +134,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='action_link61d6f9511ae2644']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost:8080/moodle/mod/quiz/report.php?id=19&amp;mode=statistics']</value>
    </webElementXpaths>
 </WebElementEntity>

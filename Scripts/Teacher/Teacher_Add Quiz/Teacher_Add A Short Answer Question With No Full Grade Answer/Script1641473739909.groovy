@@ -61,5 +61,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Editing a Short answer ques
 
 WebUI.click(findTestObject('Object Repository/Page_Editing a Short answer question/input__submitbutton'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Editing a Short answer question/div_One of the answers should have a score _23965b'), 
+    'One of the answers should have a score of 100% so it is possible to get full marks for this question.')
+
 WebUI.closeBrowser()
 

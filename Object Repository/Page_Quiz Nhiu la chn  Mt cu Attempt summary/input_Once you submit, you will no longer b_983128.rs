@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='id_yuiconfirmyes-yui_3_17_2_2_1641657988071_8']</value>
+         <value>//div/div[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>

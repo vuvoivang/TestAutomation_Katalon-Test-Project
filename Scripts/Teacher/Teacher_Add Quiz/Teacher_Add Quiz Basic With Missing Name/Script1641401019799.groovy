@@ -39,5 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Quiz/input_Upon activity completion_submitbutton'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Editing Quiz/div_- You must supply a value here'), '- You must supply a value here.')
+
 WebUI.closeBrowser()
 
