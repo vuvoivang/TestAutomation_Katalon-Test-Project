@@ -6,12 +6,12 @@
    <elementGuidId>9d3d936d-6488-495d-ae55-5722cb4c80fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='region-main']/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.generalbox.calendarurl</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='region-main']/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

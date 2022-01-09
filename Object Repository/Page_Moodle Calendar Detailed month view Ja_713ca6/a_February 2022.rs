@@ -6,12 +6,12 @@
    <elementGuidId>7f646e24-1dd8-4b0e-91e0-d49e5f54d117</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[2]/following::a[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.arrow_link.next</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[2]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
