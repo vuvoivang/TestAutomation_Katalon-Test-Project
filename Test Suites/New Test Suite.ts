@@ -78,54 +78,6 @@
       <testCaseId>Test Cases/Teacher/Teacher_Add Forum/Teacher_Add Forum With Topic Valid All Required</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>160366dc-9176-4b3f-95f7-52c58d7736b5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Add A Short Answer Question With No Full Grade Answer</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3ee3ea8d-cc7e-454e-8c5a-6c61ce98dc9e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Add Quiz Basic With Missing Name</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dafb3b7b-0a3f-4d65-b82f-e61123777fea</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Quiz Add A Multiple Choices Question Successfully</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5b8ab980-73c6-4584-b1ab-4bb56364c088</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Quiz Add A Multiple Choices Question With Only One Answer</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c17b2d0d-8a34-4e28-b82f-8306aa1f57db</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Quiz Add Question With Missing Question Text</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4147d920-6ce7-4c8f-8201-686d8584017b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher/Teacher_Quiz Result/Teacher_Review An Attempt</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c6579af9-9806-4e9b-87a4-e093b3ca2363</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher/Teacher_Quiz Result/Teacher_See The Statistics Of A Question</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fa299ba7-5a2c-4441-9651-74b1715ed012</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Teacher/Teacher_Quiz Result/Teacher_See Unattempted Students In A Quiz</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>00c6eee1-1813-40ba-aa68-0406f722f0bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
