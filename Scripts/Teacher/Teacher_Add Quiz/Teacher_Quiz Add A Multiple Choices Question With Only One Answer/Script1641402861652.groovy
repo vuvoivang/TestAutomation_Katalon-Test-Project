@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource_1'))
+WebUI.click(findTestObject('Page_Course Ton t hp/span_Add an activity or resource_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz_1'))
 
@@ -61,6 +61,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Editing a Multi
     '1.0', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Editing a Multiple choice question/input__submitbutton'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Editing a Multiple choice question/div_This type of question requires at least_02af54'), 
+    'This type of question requires at least 2 choices')
 
 WebUI.closeBrowser()
 

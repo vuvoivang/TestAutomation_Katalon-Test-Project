@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource_1'))
+WebUI.click(findTestObject('Page_Course Ton t hp/span_Add an activity or resource_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/a_Quiz_1'))
 
@@ -60,6 +60,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Editing a Short answer ques
 WebUI.setText(findTestObject('Object Repository/Page_Editing a Short answer question/input_Answer 2_answer1'), 'Another answer that is not full grade')
 
 WebUI.click(findTestObject('Object Repository/Page_Editing a Short answer question/input__submitbutton'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Editing a Short answer question/div_One of the answers should have a score _23965b'), 
+    'One of the answers should have a score of 100% so it is possible to get full marks for this question.')
 
 WebUI.closeBrowser()
 
