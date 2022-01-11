@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/div_Course image",
+      "brokenLocator": "//div[@id\u003d\u0027page-container-1\u0027]/div/div/div/a/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Card\u0027])[1]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220111_222006/Run All Test Cases/20220111_222006/Object Repository/Page_Dashboard/div_Course image_neighbor.png"
+    }
+  ]
+}
