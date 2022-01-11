@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Announcements Forum'))
 
-WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new topic'))
+WebUI.click(findTestObject('Page_Announcements/a_Add a new topic'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject'), 'Topic With Tags')
 
