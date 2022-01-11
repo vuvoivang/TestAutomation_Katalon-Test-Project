@@ -131,4 +131,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher/Teacher_Quiz Result/Teacher_See The Statistics Of A Question</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fa60fcb7-1949-4a2e-a518-9ce40f298ebe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Announcement/Teacher_Add Annoucement Advanced With Tags</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e7bb7c3e-a6c0-4ff1-a5cc-992e2f41885c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Announcement/Teacher_Add Announcement Advanced With Display Period</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>093d8c34-50b1-4334-94a9-d4960bfa7c3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Forum/Teacher_Add Forum Submit Without Input in Forum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e6a83a93-288d-467f-ba56-862bb6542c9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Forum/Teacher_Add Forum Submit Without Input in Topic</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a53236b-3ec6-4191-b777-6938968b695f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/Student_Survey/Student_Input Text Survey</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cc942af9-c0da-46b9-8042-98bd560b4060</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/Student_Survey/Student_Multiple Choice Survey</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2ebc0df-03a1-4733-94c6-19db62b91868</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/Student_Quiz/Student_Quiz_Multiple Choices With Multiple Questions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>26ff1f96-ebd3-4243-8caf-81b791dbc00a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/Student_Quiz/Student_Quiz_Multiple Choices With One Question</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43fd23d4-1a03-4a07-af19-6df47fea0668</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/Student_Quiz/Student_Quiz_Single Choice With Multiple Questions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ab292da3-5e48-4f7e-9a17-a24c42c9158f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/Student_Quiz/Student_Quiz_Single Choice With One Question</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
