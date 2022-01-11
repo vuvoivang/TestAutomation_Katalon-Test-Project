@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Chn ngy thi/div_Your selection 211 241",
+      "brokenLocator": "//div[@id\u003d\u0027yourselection\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027×\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220111_211024/Run All Test Cases/20220111_211024/Object Repository/Page_Chn ngy thi/div_Your selection 211 241_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Chn 1 bui hc b/div_Your selection 141",
+      "brokenLocator": "//div[@id\u003d\u0027yourselection\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027×\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220111_211024/Run All Test Cases/20220111_211024/Object Repository/Page_Chn 1 bui hc b/div_Your selection 141_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TTH Quiz Nhiu cu  nhiu la chn/a_Quiz Nhiu cu  nhiu la chn_action-menu-toggle-3",
+      "brokenLocator": "//a[@id\u003d\u0027action-menu-toggle-3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Quiz Nhiều câu + nhiều lựa chọn\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220111_211024/Run All Test Cases/20220111_211024/Object Repository/Page_TTH Quiz Nhiu cu  nhiu la chn/a_Quiz Nhiu cu  nhiu la chn_action-menu-toggle-3_neighbor.png"
+    }
+  ]
+}
