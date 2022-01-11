@@ -58,7 +58,5 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Adminis
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_The password must have at least 1 speci_80717b'), 
     0)
 
-WebUI.delay(2)
-
 WebUI.closeBrowser()
 

@@ -76,7 +76,5 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Password has b
 
 WebUI.click(findTestObject('Object Repository/Page_Password has been changed/button_Continue'))
 
-WebUI.delay(2)
-
 WebUI.closeBrowser()
 
