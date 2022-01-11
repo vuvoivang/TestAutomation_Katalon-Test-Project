@@ -8,7 +8,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Card\u0027])[1]/following::div[8]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/div_Course image_neighbor.png"
+      "pathToScreenshot": "Reports/20220111_222006/Run All Test Cases/20220111_222006/Object Repository/Page_Dashboard/div_Course image_neighbor.png"
     }
   ]
 }
