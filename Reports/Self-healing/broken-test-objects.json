@@ -1,14 +1,3 @@
 {
-  "brokenTestObjects": [
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_Course Ton t hp/span_Quiz Nhiu cu  nhiu la chn",
-      "brokenLocator": "//li[@id\u003d\u0027module-21\u0027]/div/div/div[2]/div/a/span",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mark as done\u0027])[6]/following::span[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course Ton t hp/span_Quiz Nhiu cu  nhiu la chn_neighbor.png"
-    }
-  ]
+  "brokenTestObjects" : [ ]
 }
