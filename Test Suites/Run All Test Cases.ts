@@ -251,4 +251,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Student/Student_Enroll/Student_Self Enroll_Success_No Key</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6eca9513-167f-43b9-80fa-a203e53aa04f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Assignment/Teacher_Add Assignment Submit Without Input</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d9f964f9-0971-4f7d-b1e1-f22060407db9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Assignment/Teacher_Add Assignment With Due Date Before Allow Submission From</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>45b69091-a208-4ba6-a51d-df28254384c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Add A Short Answer Question With No Full Grade Answer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d53b76e2-41b1-48a8-96fb-bb6add35b762</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Assignment/Teacher_Add Assignment With Submission Type</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf9e0e32-3855-4a85-a684-3a84eab9f29b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Quiz Add A Multiple Choices Question With Only One Answer</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2008771e-d0a6-44e4-b5c0-44ae60070143</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Quiz/Teacher_Quiz Add Question With Missing Question Text</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2fd0284-a0dd-4faa-b329-b33c853ce569</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Survey/Teacher_Add Survey ATTLS</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fcf9443f-545d-4837-837c-166355f865c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Survey/Teacher_Add Survey Critical Incidents</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ac4b3c6b-d065-4b1b-828f-9e4698d94b22</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Quiz Result/Teacher_Review An Attempt</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bc727db1-c7c9-4d5e-a771-469fb73b1433</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Quiz Result/Teacher_See Unattempted Students In A Quiz</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
