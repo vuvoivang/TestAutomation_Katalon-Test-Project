@@ -59,8 +59,6 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
 
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Lp trnh hng i tng 19CTT3'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CTT3/button_End tour'))
-
 WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CTT3/a_Participants'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OOP Participants/th_Xuan Y Dam Thi'), 0)
