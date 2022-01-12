@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "brokenTestObjects": [
     {
       "approved": true,
@@ -31,4 +32,7 @@
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OOP Link Zoom mn hc/a_httpsfithcmus.zoom.usj97609347249pwdb3NsN_96082d_neighbor.png"
     }
   ]
+=======
+  "brokenTestObjects" : [ ]
+>>>>>>> 333f8f45fe7b06741b59e67ee26c82c03aa15b87
 }
