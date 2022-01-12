@@ -48,7 +48,5 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users A
 
 WebUI.verifyElementPresent(findTestObject('Page_Moodle Administration Users Accounts/div_Invalid email address'), 0)
 
-WebUI.delay(2)
-
 WebUI.closeBrowser()
 
