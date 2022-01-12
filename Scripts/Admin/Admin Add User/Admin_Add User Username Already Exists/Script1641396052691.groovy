@@ -27,24 +27,19 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/
 
 WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/input_Username_username'))
 
-WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Username_username'), 
-    'xuany')
+WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Username_username'), 'xuany')
 
 WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/em_Click to enter text'))
 
-WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/i_Click to enter text_icon fa fa-eye fa-fw'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/i_Click to enter text_icon fa fa-eye fa-fw'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_New password_newpassword'), 'yTest123@')
 
-WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_First name_firstname'), 
-    'Ý')
+WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_First name_firstname'), 'Ý')
 
-WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Surname_lastname'), 
-    'Đàm')
+WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Surname_lastname'), 'Đàm')
 
-WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Email address_email'), 
-    'ydam@gmail.com')
+WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Email address_email'), 'ydam@gmail.com')
 
 WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/input_Address_submitbutton'))
 
@@ -53,8 +48,6 @@ WebUI.verifyElementPresent(findTestObject('Page_Moodle Administration Users Acco
 
 WebUI.verifyElementText(findTestObject('Page_Moodle Administration Users Accounts/div_This username already exists, choose another'), 
     'This username already exists, choose another')
-
-WebUI.delay(2)
 
 WebUI.closeBrowser()
 

@@ -50,10 +50,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Survey Critical Incidents/t
 
 WebUI.click(findTestObject('Object Repository/Page_Survey Critical Incidents/input_What event surprised you most_btn btn_1c5d04'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Survey saved/div_Thanks for answering this survey, Hoang Du'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_Survey saved/div_Thanks for answering this survey, Hoang Du'))
-
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Survey saved/div_Thanks for answering this survey, Hoang Du'), 
     'Thanks for answering this survey, Hoang Du')
 
