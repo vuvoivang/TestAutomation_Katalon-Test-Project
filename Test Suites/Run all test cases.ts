@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>b54a59f2-9450-4d06-b704-449d90d36c25</testSuiteGuid>
+   <testSuiteGuid>347974fd-306a-432e-98a1-8a3e6cc2c10c</testSuiteGuid>
    <testCaseLink>
       <guid>b65eee36-2f3b-409a-83f2-9b1e73a418f0</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -250,5 +250,65 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher/Teacher_Add Forum/Teacher_Add Forum Submit Without Input in Forum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e6a83a93-288d-467f-ba56-862bb6542c9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Forum/Teacher_Add Forum Submit Without Input in Topic</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>79926f63-171b-4a74-9d66-4f05a580bdcb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin/Admin Add User/Admin_Add User Invalid Email</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>356c39db-be14-46dd-9fb4-4d2dd45a63ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin/Admin Add User/Admin_Add User Invalid Username</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a0249e97-f141-4299-980f-8af507a4785e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin/Admin Add User/Admin_Add User Success</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb932df8-5c17-4201-a07b-539e6e644df5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin/Admin Add User/Admin_Add User Username Already Exists</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5a45aa66-93c6-4377-a84f-0fbc211c0378</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin/Admin Create Course/Admin_Create Course Success</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6eca9513-167f-43b9-80fa-a203e53aa04f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Assignment/Teacher_Add Assignment Submit Without Input</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d53b76e2-41b1-48a8-96fb-bb6add35b762</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Assignment/Teacher_Add Assignment With Submission Type</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2fd0284-a0dd-4faa-b329-b33c853ce569</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Survey/Teacher_Add Survey ATTLS</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fcf9443f-545d-4837-837c-166355f865c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher/Teacher_Add Survey/Teacher_Add Survey Critical Incidents</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
