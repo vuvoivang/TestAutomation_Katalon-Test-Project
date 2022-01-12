@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='action-menu-toggle-3']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Quiz Nhiều câu + nhiều lựa chọn'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
