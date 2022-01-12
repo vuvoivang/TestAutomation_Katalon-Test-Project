@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OOP Link Zoom mn hc/a_httpsfithcmus.zoom.usj97609347249pwdb3NsN_96082d",
+      "brokenLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mark as done\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OOP Link Zoom mn hc/a_httpsfithcmus.zoom.usj97609347249pwdb3NsN_96082d_neighbor.png"
+    }
+  ]
+}
