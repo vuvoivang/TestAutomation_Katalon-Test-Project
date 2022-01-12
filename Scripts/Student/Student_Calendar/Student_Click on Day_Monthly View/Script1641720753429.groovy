@@ -35,10 +35,6 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed mont
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/a_Add submission (2)'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_OOP Bi tp 2 - Edit submission/h2_Bi tp 2 (2)'))
-
-WebUI.click(findTestObject('Object Repository/Page_OOP Bi tp 2 - Edit submission/h2_Bi tp 2 (2)'))
-
 WebUI.verifyElementText(findTestObject('Page_OOP Bi tp 2 - Edit submission/h2_Bi tp 2 (2)'), 'Bài tập 2')
 
 WebUI.closeBrowser()
