@@ -27,25 +27,27 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Search/a_Add a new user'))
 
-WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Username_username'), 'duy')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Username_username'), 'duy')
 
-WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/em_Click to enter text'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/em_Click to enter text'))
 
-WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/i_Click to enter text_icon fa fa-eye fa-fw'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/i_Click to enter text_icon fa fa-eye fa-fw'))
 
-WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_New password_newpassword'), 'duyTest123@')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_New password_newpassword'), 
+    'duyTest123@')
 
-WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_First name_firstname'), 'duy')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_First name_firstname'), 
+    'duy')
 
-WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Surname_lastname'), 'đặng')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Surname_lastname'), 'đặng')
 
-WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Email address_email'), 'duyduy@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Email address_email'), 'duyduy@gmail.com')
 
-WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/input_Address_submitbutton'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Address_submitbutton'))
 
-WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/a_Admin User'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/a_Admin User'))
 
-WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/span_Log out'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/span_Log out'))
 
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle/a_Log in'))
 
@@ -54,6 +56,8 @@ WebUI.setText(findTestObject('Object Repository/Page_BCS Moodle Log in to the si
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/input_Password_password'), '3Eq3dG7ItvbA7bSXU4Ys3Q==')
 
 WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site/button_Log in'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dashboard/a_Site home'), 0)
 
 WebUI.closeBrowser()
 

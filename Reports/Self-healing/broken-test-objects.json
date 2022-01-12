@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OOP Link Zoom mn hc/a_httpsfithcmus.zoom.usj97609347249pwdb3NsN_96082d_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Change password/input_Current password_password",
+      "brokenLocator": "//input[@id\u003d\u0027id_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Change password/input_Current password_password_position.png"
     }
   ]
 }
