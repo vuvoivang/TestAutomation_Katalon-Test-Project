@@ -37,7 +37,5 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/input
 
 WebUI.click(findTestObject('Object Repository/Page_HTTT Participants/h1_H thng thng tin'))
 
-WebUI.delay(2)
-
 WebUI.closeBrowser()
 
