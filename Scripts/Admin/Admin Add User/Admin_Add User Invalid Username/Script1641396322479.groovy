@@ -43,8 +43,8 @@ WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Em
 
 WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/input_Address_submitbutton'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Moodle Administration Users Accounts/div_The username can only contain alphanume_241d24'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Page_Moodle Administration Users Accounts/div_The username can only contain alphanume_241d24'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -46,17 +46,17 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Address_submitbutton'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_Passwords must be at least 8 characters long'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_Passwords must be at least 8 characters long'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_Passwords must have at least 1 digit(s)'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_Passwords must have at least 1 digit(s)'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_Passwords must have at least 1 upper ca_8e926f'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_Passwords must have at least 1 upper ca_8e926f'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_The password must have at least 1 speci_80717b'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Moodle Administration Users Accounts A_0fbd97/div_The password must have at least 1 speci_80717b'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

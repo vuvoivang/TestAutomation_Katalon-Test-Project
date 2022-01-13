@@ -43,8 +43,8 @@ WebUI.setText(findTestObject('Page_Moodle Administration Users Accounts/input_Em
 
 WebUI.click(findTestObject('Page_Moodle Administration Users Accounts/input_Address_submitbutton'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Moodle Administration Users Accounts/div_This username already exists, choose another'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Page_Moodle Administration Users Accounts/div_This username already exists, choose another'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Moodle Administration Users Accounts/div_This username already exists, choose another'), 
     'This username already exists, choose another')

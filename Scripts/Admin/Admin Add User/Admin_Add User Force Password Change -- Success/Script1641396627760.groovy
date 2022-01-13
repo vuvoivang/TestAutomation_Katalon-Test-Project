@@ -71,8 +71,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Change password/in
 
 WebUI.click(findTestObject('Object Repository/Page_Change password/input_New password (again)_submitbutton'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Password has been changed/div_Password has been changed'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Password has been changed/div_Password has been changed'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Password has been changed/button_Continue'))
 
