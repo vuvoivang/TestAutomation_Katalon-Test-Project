@@ -35,8 +35,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/inp
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/input__saveanddisplay'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Add a new course/div_Short name is already used for another _2a3f8e'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Moodle Add a new course/div_Short name is already used for another _2a3f8e'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

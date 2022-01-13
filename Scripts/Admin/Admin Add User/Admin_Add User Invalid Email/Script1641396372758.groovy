@@ -46,7 +46,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Administration Users
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Administration Users Accounts/input_Address_submitbutton'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Moodle Administration Users Accounts/div_Invalid email address'), 0)
+WebUI.verifyElementVisible(findTestObject('Page_Moodle Administration Users Accounts/div_Invalid email address'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
