@@ -42,7 +42,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Editing Assignment/input_As
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Editing Assignment/select_1        2        3        4        _45ea30'), 
     '3', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Upon activity completion_submitbutton'))
+WebUI.click(findTestObject('Page_Editing Assignment/input_Upon activity completion_submitbutton2'))
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/div_Due date cannot be earlier than the all_eaad69'))
 
