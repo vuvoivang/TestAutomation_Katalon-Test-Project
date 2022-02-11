@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Calendar'))
 
+WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Fe_b28105/a_January 2022'))
+
 WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/button_Export calendar'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Export/input_Events related to courses_eventsexportevents'))

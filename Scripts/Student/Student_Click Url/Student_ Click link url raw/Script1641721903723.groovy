@@ -37,6 +37,8 @@ WebUI.click(findTestObject('Object Repository/Page_Course Lp trnh hng i tng 19CT
 
 WebUI.navigateToUrl('http://localhost:8080/moodle/mod/url/view.php?id=14')
 
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_OOP Link Zoom mn hc/a_httpsfithcmus.zoom.usj97609347249pwdb3NsN_96082d'))
+
 WebUI.click(findTestObject('Object Repository/Page_OOP Link Zoom mn hc/a_httpsfithcmus.zoom.usj97609347249pwdb3NsN_96082d'))
 
 WebUI.closeBrowser()

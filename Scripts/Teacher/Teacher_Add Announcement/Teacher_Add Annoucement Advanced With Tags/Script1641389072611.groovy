@@ -33,27 +33,29 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Announcements Forum'))
 
-WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new topic'))
+WebUI.click(findTestObject('Object Repository/Page_Announcements/a_Add a new topic (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject'), 'Topic With Tags')
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/input_Subject_subject (1)'), 'Topic With Tags')
 
-WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_This is a topic with advanced field tags'), 'This is a topic with advanced field tags')
+WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_This is a topic with advanced field tags (1)'), 'This is a topic with advanced field tags')
 
-WebUI.click(findTestObject('Object Repository/Page_Announcements/input_Cancel_advancedadddiscussion'))
+WebUI.click(findTestObject('Object Repository/Page_Announcements/input_Cancel_advancedadddiscussion (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/a_Tags'))
+WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/a_Tags (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_TTH Add a new topic/input_No selection_form_autocomplete_input-_69419d'), 
+WebUI.setText(findTestObject('Object Repository/Page_TTH Add a new topic/input_No selection_form_autocomplete_input-_69419d (1)'), 
     'Sample Tags')
 
-WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/div_Selected items                No select_148724'))
+WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/div_Selected items                No select_148724 (1)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TTH Add a new topic/select_sample tags'), 'Sample Tags', 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TTH Add a new topic/select_sample tags (1)'), 'Sample Tags', 
     true)
 
-WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/div_Sample Tags                            _c5a69e'))
+WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/div_Sample Tags                            _c5a69e (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/input__submitbutton'))
+WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/input__submitbutton (1)'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Announcements/p_Your post was successfully added'), 'Your post was successfully added.')
 
 WebUI.closeBrowser()
 

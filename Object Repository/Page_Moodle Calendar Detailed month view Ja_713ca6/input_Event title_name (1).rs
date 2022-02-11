@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Assignment name_name</name>
+   <name>input_Event title_name (1)</name>
    <tag></tag>
-   <elementGuidId>ece56dc8-44fe-4eb6-b646-c89d943a4f29</elementGuidId>
+   <elementGuidId>4708a110-7e2e-4738-96d0-284e9f4d672f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>size</name>
       <type>Main</type>
-      <value>64</value>
+      <value>50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,34 +77,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641397287136_1456']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641380999339_1147']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641397206647_1457']/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641391592974_1465']/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641391429502_1459']/input</value>
+      <value>//div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

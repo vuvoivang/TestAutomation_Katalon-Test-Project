@@ -46,5 +46,7 @@ WebUI.click(findTestObject('Page_Editing Survey/input_Upon activity completion_s
 
 WebUI.click(findTestObject('Object Repository/Page_Example Survey ATTLS/a_Survey'))
 
+WebUI.verifyTextPresent('Example Survey ATTLS', false)
+
 WebUI.closeBrowser()
 

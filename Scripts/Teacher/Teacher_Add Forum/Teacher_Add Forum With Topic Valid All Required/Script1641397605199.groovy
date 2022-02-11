@@ -50,7 +50,8 @@ WebUI.setText(findTestObject('Object Repository/Page_New Forum With Topic/div_We
 
 WebUI.click(findTestObject('Object Repository/Page_New Forum With Topic/input_Message_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Page_New Forum With Topic/p_Your post was successfully added_1'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_New Forum With Topic/p_Your post was successfully added_1'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

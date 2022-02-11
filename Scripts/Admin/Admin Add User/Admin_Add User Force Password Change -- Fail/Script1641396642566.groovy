@@ -71,9 +71,7 @@ WebUI.setText(findTestObject('Page_Change password/input_New password (again)_ne
 
 WebUI.click(findTestObject('Page_Change password/input_New password (again)_submitbutton'))
 
-WebUI.click(findTestObject('Page_Change password/div_These passwords do not match'))
-
-WebUI.click(findTestObject('Page_Change password/div_These passwords do not match_1'))
+WebUI.verifyElementVisible(findTestObject('Page_Change password/div_These passwords do not match'))
 
 WebUI.closeBrowser()
 

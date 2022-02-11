@@ -39,5 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_CSDL/input_Enrolment key_subm
 
 WebUI.navigateToUrl('http://localhost:8080/moodle/course/view.php?id=3')
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Course C s d liu 19CTT3/h1_C s d liu 19CTT3'))
+
 WebUI.closeBrowser()
 

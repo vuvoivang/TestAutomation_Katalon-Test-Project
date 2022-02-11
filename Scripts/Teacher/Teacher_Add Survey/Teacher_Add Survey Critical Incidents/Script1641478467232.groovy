@@ -46,5 +46,7 @@ WebUI.click(findTestObject('Object Repository/Page_Editing Survey/input_Upon act
 
 WebUI.click(findTestObject('Object Repository/Page_Example Survey Critical Incidents/a_Survey'))
 
+WebUI.verifyTextPresent('Example Survey Critical Incidents', false)
+
 WebUI.closeBrowser()
 

@@ -53,5 +53,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TTH Add a new t
 
 WebUI.click(findTestObject('Object Repository/Page_TTH Add a new topic/input__submitbutton'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Announcements/p_Your post was successfully added'), 'Your post was successfully added.')
+
 WebUI.closeBrowser()
 

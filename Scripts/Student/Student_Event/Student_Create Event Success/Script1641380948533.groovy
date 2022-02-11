@@ -31,15 +31,18 @@ WebUI.click(findTestObject('Object Repository/Page_BCS Moodle Log in to the site
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Calendar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/button_New event'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/button_New event (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/input_Event title_name'), 
+WebUI.setText(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/input_Event title_name (1)'), 
     'Homework 1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/select_1        2        3        4        _45ea30'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/select_1        2        3        4        _45ea30 (1)'), 
     '9', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Ja_713ca6/button_Save (1)'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Calendar Detailed month view Fe_b28105/a_Homework 1'), 
+    0)
 
 WebUI.closeBrowser()
 

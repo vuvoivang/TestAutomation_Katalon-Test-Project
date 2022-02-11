@@ -6,12 +6,12 @@
    <elementGuidId>30535bc4-08d1-4777-a590-7dea477a227d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.optionicon.mt-2.mb-1.icon-size-5.icon-no-margin > img.icon.icon</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='all-5']/div/div/div/a/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.optionicon.mt-2.mb-1.icon-size-5.icon-no-margin > img.icon.icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

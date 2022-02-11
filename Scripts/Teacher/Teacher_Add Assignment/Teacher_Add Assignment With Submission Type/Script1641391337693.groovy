@@ -49,5 +49,7 @@ WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/button_Sav
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Upon activity completion_submitbutton2'))
 
+WebUI.verifyTextPresent('Assignment With Submission Type', false)
+
 WebUI.closeBrowser()
 

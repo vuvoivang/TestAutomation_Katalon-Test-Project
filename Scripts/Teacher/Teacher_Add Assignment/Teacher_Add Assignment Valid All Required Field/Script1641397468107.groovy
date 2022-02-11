@@ -35,13 +35,15 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/div_Course image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/button_Turn editing on'))
 
-WebUI.click(findTestObject('Page_Course Ton t hp/span_Add an activity or resource (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/span_Add an activity or resource (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course Ton t hp/img_Recommended_icon icon'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Editing Assignment/input_Assignment name_name'), 'Basic Assignment')
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Upon activity completion_submitbutton2'))
+
+WebUI.verifyTextPresent('Basic Assignment', false)
 
 WebUI.closeBrowser()
 

@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Add a new course/inp
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Add a new course/input__saveanddisplay'))
 
-WebUI.click(findTestObject('Object Repository/Page_HTTT Participants/h1_H thng thng tin'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_HTTT Participants/h1_H thng thng tin'))
 
 WebUI.closeBrowser()
 

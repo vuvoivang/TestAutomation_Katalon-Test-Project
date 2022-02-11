@@ -42,5 +42,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Announcements/div_This is a
 
 WebUI.click(findTestObject('Object Repository/Page_Announcements/input_Message_submitbutton'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Announcements/p_Your post was successfully added'), 'Your post was successfully added.')
+
 WebUI.closeBrowser()
 
